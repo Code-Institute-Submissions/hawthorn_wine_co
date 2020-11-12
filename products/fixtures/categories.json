@@ -1,0 +1,162 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "bubbles",
+      "friendly_name": "Bubbles"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "rosé",
+      "friendly_name": "Rosé"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "white_wine",
+      "friendly_name": "White Wine"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "red_wine",
+      "friendly_name": "Red Wine"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "beer",
+      "friendly_name": "Beer"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "cider",
+      "friendly_name": "Cider"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+      "name": "ipa",
+      "friendly_name": "IPA's"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+      "name": "gin",
+      "friendly_name": "Gin"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+      "name": "vodka",
+      "friendly_name": "Vodka"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+      "name": "rum",
+      "friendly_name": "Rum"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.category",
+    "fields": {
+      "name": "denmark",
+      "friendly_name": "Denmark"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.category",
+    "fields": {
+      "name": "austria",
+      "friendly_name": "Austria"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.category",
+    "fields": {
+      "name": "czech",
+      "friendly_name": "Czech Rep"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.category",
+    "fields": {
+      "name": "france",
+      "friendly_name": "France"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.category",
+    "fields": {
+      "name": "italy",
+      "friendly_name": "Italy"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.category",
+    "fields": {
+      "name": "italy",
+      "friendly_name": "Italy"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.category",
+    "fields": {
+      "name": "spain",
+      "friendly_name": "Spain"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.category",
+    "fields": {
+      "name": "slovakia",
+      "friendly_name": "Slovakia"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.category",
+    "fields": {
+      "name": "australia",
+      "friendly_name": "Australia"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+      "name": "",
+      "friendly_name": ""
+    }
+  }
+]
