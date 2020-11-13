@@ -20,7 +20,7 @@
     "model": "products.category",
     "fields": {
       "name": "white_wine",
-      "friendly_name": "White Wine"
+      "friendly_name": "White"
     }
   },
   {
@@ -28,7 +28,7 @@
     "model": "products.category",
     "fields": {
       "name": "red_wine",
-      "friendly_name": "Red Wine"
+      "friendly_name": "Red"
     }
   },
   {
