@@ -346,7 +346,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp3540003",
-      "name": "Aligaté Burgundy",
+      "name": "Aligoté Burgundy",
       "year": "2019",
       "producer": "Chapuis & Chapuis",
       "grapes": "Domga",
@@ -357,7 +357,7 @@
       "alcohol_percentage": "12%",
       "description": "It's just extremely precise and straightforward and utterly glorious. Huge run on crisp wine (and then the label is also lovely if you are that type.",
       "tastes_good_for": "Seafood (and that applies to you, Mr. Oysters!)",
-      "image": "aligate.jpg"
+      "image": "aligote.jpg"
     }
   },
   {
