@@ -29,9 +29,9 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
                      <p class="lead mb-0 text-left font-weight-bold">Price:  €{{ product.price }}</p>
-                    <p class="mb-0">Wine:  {{ product.name }}</p>
-                    <p class="mb-0">Country:  {{ product.country }}</p>
-                    <p class="mb-0">Year:  {{ product.year }}</p>
+                    <p class="mb-0"><strong>Wine:</strong>  {{ product.name }}</p>
+                    <p class="mb-0"><strong>Country:</strong>  {{ product.country }}</p>
+                    <p class="mb-0"><strong>Year:</strong>  {{ product.year }}</p>
                      {% if product.category %}
                     <p class="small mt-1 mb-0">
                         <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -39,12 +39,12 @@
                         </a>
                     </p>
                     {% endif %}
-                    <p class="mb-0">Producer:  {{ product.producer }}</p>
-                    <p class="mb-0">Grape(s):  {{ product.grapes }}</p>
-                    <p class="mb-0">Area:  {{ product.area }}</p>
-                    <p class="mb-0">Alcohol Percentage:  {{ product.alcohol_percentage }}</p>
-                    <p class="mt-3">Description:  {{ product.description }}</p>
-                    <p class="mt-3">Tastes Good For:  {{ product.tastes_good_for }}</p>
+                    <p class="mb-0"><strong>Producer:</strong>  {{ product.producer }}</p>
+                    <p class="mb-0"><strong>Grape(s):</strong>  {{ product.grapes }}</p>
+                    <p class="mb-0"><strong>Area:</strong>  {{ product.area }}</p>
+                    <p class="mb-0"><strong>Alcohol Percentage:</strong>  {{ product.alcohol_percentage }}</p>
+                    <p class="mt-3"><strong>Description:</strong>  {{ product.description }}</p>
+                    <p class="mt-3"><strong>Tastes Good For:</strong>  {{ product.tastes_good_for }}</p>
                 </div>
             </div>
         </div>
