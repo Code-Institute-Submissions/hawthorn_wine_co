@@ -17,23 +17,6 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
-/* TopNav Styling */
-
-.headings-font{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-#main-nav {
-    background-color:#fff7f2;
-   
-}
-#topnav {
-    background-color:#fff7f2;
-}
-#navheader {
-    background-color:#fff7f2;
-} 
 
 
 /* Logo Styling */
@@ -50,6 +33,34 @@ body {
 .main-logo-link {
     width: fit-content;
 }
+
+/* TopNav Styling */
+
+.headings-font{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#main-nav {
+    background-color:#fff7f2;
+   
+}
+#topnav {
+    background-color:#fff7f2;
+}
+#navheader {
+    background-color:#fff7f2;
+} 
+
+
+/* Banner Styling */
+
+#banner {
+    font-size: 1.4em;
+}
+
+
 
 
 /* from Bulma */
@@ -72,6 +83,19 @@ body {
 .btn-black {
     background: black;
     color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
 }
 
 .shop-now-button:hover,
