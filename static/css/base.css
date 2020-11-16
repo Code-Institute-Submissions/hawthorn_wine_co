@@ -48,6 +48,9 @@ body {
 }
 #topnav {
     background-color:#fff7f2;
+    padding: 0px;
+    margin: 0px;
+
 }
 #navheader {
     background-color:#fff7f2;
