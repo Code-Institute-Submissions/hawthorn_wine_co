@@ -9,7 +9,7 @@
       "producer": "La Boheme / Patrick Bouju",
       "grapes": "Gamay",
       "area": "Auvergne",
-      "country": "France",
+      "country": 54,
       "category": 1,
       "price": 64.5,
       "alcohol_percentage": "10%",

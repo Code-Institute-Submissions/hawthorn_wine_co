@@ -144,11 +144,11 @@
     }
   },
   {
-    "pk": 10,
+    "pk": 60,
     "model": "products.category",
     "fields": {
-      "name": "",
-      "friendly_name": ""
+      "name": "other",
+      "friendly_name": "Other"
     }
   }
 ]
