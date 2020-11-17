@@ -23,7 +23,7 @@ body {
 
 .logo-font {
     font-family: 'Amatic SC', cursive;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
 #hawthorn {
@@ -63,6 +63,14 @@ body {
     font-size: 1.4em;
 }
 
+/* friendly_name display */
+#friendly-display {
+    font-size: 2.8em;
+}
+
+#tagline {
+    font-size: 2.8em;
+}
 
 
 
@@ -141,7 +149,9 @@ body {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
 
