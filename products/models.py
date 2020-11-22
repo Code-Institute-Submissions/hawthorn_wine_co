@@ -16,6 +16,17 @@ class Category(models.Model):
         return self.friendly_name
 
 
+class Country(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Countries'
+
+    name = models.CharField(max_length=254)
+
+    def __str__(self):
+        return self.name
+
+
 class Product(models.Model):
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
@@ -23,7 +34,7 @@ class Product(models.Model):
     producer = models.CharField(max_length=254, null=True, blank=True)
     grapes = models.CharField(max_length=254, null=True, blank=True)
     area = models.CharField(max_length=254, null=True, blank=True)
-    country = models.CharField(max_length=254, null=True, blank=True)
+    country = models.ForeignKey('Country', null=True, blank=True, on_delete=models.SET_NULL)
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     alcohol_percentage = models.CharField(max_length=254, null=True, blank=True)
