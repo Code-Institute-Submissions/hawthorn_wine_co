@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col text-center mt-3">
                 {% for c in current_categories %}
-                <h2 class="logo-font text-black pt-5" id="friendly-display">{{ c.friendly_name }}</h2>
+                <h2 class="logo-font text-black pt-3" id="friendly-display">{{ c.friendly_name }}</h2>
                 {% endfor %}
                 <hr class="w-50 mb-2">
             </div>
@@ -111,6 +111,8 @@
             <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
         </a>	
     </div>
+{% endblock %}
+{% block page_footer %}
 {% endblock %}
 
 {% block postloadjs %}

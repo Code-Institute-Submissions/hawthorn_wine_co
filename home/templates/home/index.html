@@ -12,8 +12,8 @@
 {% block content %}
     <div class="container h-100">
         <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black" id="tagline">
+            <div class="col-7 col-md-6 my-auto pt-2">
+                <h1 class="display-4 logo-font text-black mt-5 pt-5" id="tagline">
                     So I Called Up The Captain,<br>“Please bring me my wine”
                 </h1>
                 <div class="my-5 px-4">
@@ -24,4 +24,9 @@
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block page_footer %}
+
+{% include 'includes/footer.html' %}
 {% endblock %}

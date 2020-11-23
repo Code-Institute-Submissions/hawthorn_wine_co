@@ -114,6 +114,7 @@
         </div>
     </header>
 
+
      {% if messages %}
         <div class="message-container">
             {% for message in messages %}
@@ -137,6 +138,52 @@
 
     {% block content %}
     {% endblock %}
+
+     <footer>
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-4">
+                Contact
+                </div>
+                 <div class="col-4">
+                 <ul class="list-inline text-center mt-3">
+                     <li class="list-inline-item">
+                        <a href="https://twitter.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse fontawesome"></i>
+                        </span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a href="https://www.facebook.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse fontawesome"></i>
+                        </span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a href="https://www.instagram.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-instagram fa-stack-1x fa-inverse fontawesome"></i>
+                        </span>
+                        </a>
+                     </li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                Logo 
+                </div>
+            <div class="row">
+                <div class="col-12">
+                    <small class="text-muted"> &c and registered Hawthorn </small>
+                </div>
+            </div>
+         </div>
+    </div>
+</footer>
 
      {% block postloadjs %}
     <script type="text/javascript">
