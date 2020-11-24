@@ -4,6 +4,9 @@ font-family: 'Amatic SC', cursive;  Logo
 font-family: 'Montserrat', sans-serif;  Headings
 */
 
+* {
+    margin: 0;
+}
 
 html {
     height: 100%;   
@@ -13,10 +16,16 @@ body {
     background: url('/media/open.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
+    min-height: 100vh;
     color: #555;
     font-family: 'Abel', sans-serif;
 }
 
+
+/*  To keep Footer from moving up page on Login/Logout/Shopping bag screens etc. */
+.main {
+    height: 100vh !important;
+}
 
 
 /* Logo Styling */
@@ -59,9 +68,18 @@ body {
 
 /*   Footer Styling  */
 
-#footer {
+ #footer {
     background-color: #fff7f2; 
+    bottom: 0;
+    width: 100%;
+} 
+
+#tree-logo {
+    max-height: 100px;
+    min-height: 80px;
+    z-index: 0;
 }
+
 
 .fontawesome:hover,
 .fontawesome:active,

@@ -36,6 +36,7 @@
     {% endblock %}
 
     <title>Hawthorn Wine Co. {% block extra_title %}{% endblock %}</title>
+    <link rel="shortcut icon" type="image/svg" href="media/wine-bottle.svg">
   </head>
    <body>
     <header id="navheader" class="container-fluid fixed-top">
@@ -73,11 +74,11 @@
                                 {% if request.user.is_superuser %}
                                     <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                                 {% endif %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile<i class="fas fa-user-circle px-2"></i></a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout<i class="fas fa-sign-out-alt px-2"></i></a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register<i class="fas fa-pen px-2"></i></a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item">Login<i class="fas fa-sign-in-alt px-2"></i></a>
                             {% endif %}
                         </div>
                     </li>
@@ -112,8 +113,12 @@
                 <h4 class="headings-font my-1 d-block" id="banner">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>                
             </div>            
         </div>
+        <!-- <div class="row">
+        <div class="col display-md-none text-center">
+        <h2 class="logo-font text-black my-0"><strong id="">Hawthorn</strong> Wine Co.</h2>
+        </div>
+        </div> -->
     </header>
-
 
      {% if messages %}
         <div class="message-container">
@@ -138,12 +143,12 @@
 
     {% block content %}
     {% endblock %}
-
-     <footer>
+<!-- 
+     <footer class="">
         <div class="container-fluid" id="footer">
             <div class="row">
-                <div class="col-4">
-                Contact
+                <div class="col-4 mt-2">
+                <img src="media/abstract-tree.svg" alt="" id="tree-logo">
                 </div>
                  <div class="col-4">
                  <ul class="list-inline text-center mt-3">
@@ -173,17 +178,70 @@
                      </li>
                   </ul>
                 </div>
-                <div class="col-4">
-                Logo 
-                </div>
-            <div class="row">
-                <div class="col-12">
-                    <small class="text-muted"> &c and registered Hawthorn </small>
-                </div>
-            </div>
          </div>
     </div>
+</footer> -->
+<footer class="" id="footer">
+  <div class="container-fluid">
+    <div class="row">
+             <div class="col" id="red">Red</div>
+
+
+
+
+
+            <div class="col mt-3" id="">
+            
+           <ul class="list-inline text-center mt-3">
+                     <li class="list-inline-item">
+                        <a href="https://twitter.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse fontawesome"></i>
+                        </span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a href="https://www.facebook.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse fontawesome"></i>
+                        </span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a href="https://www.instagram.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-instagram fa-stack-1x fa-inverse fontawesome"></i>
+                        </span>
+                        </a>
+                     </li>
+                  </ul>
+            
+            </div>
+
+
+
+
+
+
+
+           <div class="col-4 mt-2">
+                <img src="media/abstract-tree.svg" alt="" id="tree-logo">
+                </div>
+        </div>
+    <div class="row">
+         <div class="col text-center">
+            <span class="small">
+            <i class="far fa-copyright"></i>
+            <i class="far fa-registered"></i>
+            Hawthorn Wine Co. 2021</span>
+        </div>
+     </div>
+  </div>
 </footer>
+    
 
      {% block postloadjs %}
     <script type="text/javascript">
