@@ -36,7 +36,7 @@
     {% endblock %}
 
     <title>Hawthorn Wine Co. {% block extra_title %}{% endblock %}</title>
-    <link rel="shortcut icon" type="image/svg" href="media/wine-bottle.svg">
+    <link rel="shortcut icon" type="image/svg" href="{{ MEDIA_URL }}wine-bottle.svg">
   </head>
    <body>
     <header id="navheader" class="container-fluid fixed-top">
@@ -119,6 +119,7 @@
         </div>
         </div> -->
     </header>
+    
 
      {% if messages %}
         <div class="message-container">
@@ -143,56 +144,22 @@
 
     {% block content %}
     {% endblock %}
-<!-- 
-     <footer class="">
-        <div class="container-fluid" id="footer">
-            <div class="row">
-                <div class="col-4 mt-2">
-                <img src="media/abstract-tree.svg" alt="" id="tree-logo">
-                </div>
-                 <div class="col-4">
-                 <ul class="list-inline text-center mt-3">
-                     <li class="list-inline-item">
-                        <a href="https://twitter.com/" target="_blank">
-                        <span class="fa-stack fa-lg">
-                        <i class="fas fa-circle fa-stack-2x text-black"></i>
-                        <i class="fab fa-twitter fa-stack-1x fa-inverse fontawesome"></i>
-                        </span>
-                        </a>
-                     </li>
-                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank">
-                        <span class="fa-stack fa-lg">
-                        <i class="fas fa-circle fa-stack-2x text-black"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse fontawesome"></i>
-                        </span>
-                        </a>
-                     </li>
-                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/" target="_blank">
-                        <span class="fa-stack fa-lg">
-                        <i class="fas fa-circle fa-stack-2x text-black"></i>
-                        <i class="fab fa-instagram fa-stack-1x fa-inverse fontawesome"></i>
-                        </span>
-                        </a>
-                     </li>
-                  </ul>
-                </div>
-         </div>
-    </div>
-</footer> -->
+
+
+
 <footer class="" id="footer">
-  <div class="container-fluid">
+  <div class="container-fluid" id="footer-div">
     <div class="row">
-             <div class="col" id="red">Red</div>
-
-
-
-
-
-            <div class="col mt-3" id="">
-            
-           <ul class="list-inline text-center mt-3">
+             <div class="col mt-4" id="">
+             <p class="text-left text-black ml-5">Hawthorn Wine Co.<br>
+                New Antrim St.<br>
+                Castlebar,<br>
+                Co. Mayo,<br>
+                F23 EE97
+                </p>
+             </div>
+ <div class="col mt-3" id="">
+            <ul class="list-inline text-center mt-3">
                      <li class="list-inline-item">
                         <a href="https://twitter.com/" target="_blank">
                         <span class="fa-stack fa-lg">
@@ -221,14 +188,8 @@
             
             </div>
 
-
-
-
-
-
-
-           <div class="col-4 mt-2">
-                <img src="media/abstract-tree.svg" alt="" id="tree-logo">
+           <div class="col-4 mt-2 pr-3">
+                <img src="{{ MEDIA_URL }}abstract-tree.svg" alt="" id="tree-logo">
                 </div>
         </div>
     <div class="row">
@@ -241,7 +202,7 @@
      </div>
   </div>
 </footer>
-    
+ 
 
      {% block postloadjs %}
     <script type="text/javascript">
@@ -249,6 +210,6 @@
     </script>
     {% endblock %}
 
-    
+   
   </body>
 </html>

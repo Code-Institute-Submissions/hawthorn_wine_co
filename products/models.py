@@ -16,6 +16,17 @@ class Category(models.Model):
         return self.friendly_name
 
 
+# class Country(models.Model):
+
+#     class Meta:
+#         verbose_name_plural = 'Countries'
+
+#     name = models.CharField(max_length=254)
+
+#     def __str__(self):
+#         return self.name
+
+
 class Product(models.Model):
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
