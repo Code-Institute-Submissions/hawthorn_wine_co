@@ -59,6 +59,10 @@ body {
     background-color:#fff7f2;
 } 
 
+.all-links:hover {
+    color: rgb(97, 89, 89) !important;
+}
+
 
 /*   Footer Styling  */
 
