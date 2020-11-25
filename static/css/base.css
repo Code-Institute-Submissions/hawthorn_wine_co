@@ -37,12 +37,7 @@ body {
     width: fit-content;
 }
 
-@media screen and (max-width: 991px){
-    #hawthorn-sm {
-        display: block;
-        font-size: 1.1rem;
-    }
-}
+
 
 
 
@@ -475,3 +470,16 @@ a, u {
 
 
 
+@media screen and (max-width: 991px){
+    #hawthorn-sm {
+        display: block;
+        font-size: 1.1rem;
+    }
+}
+
+#hawthorn-sm {
+    color: #000;
+}
+#hawthorn-sm:hover {
+    text-decoration: none !important;
+}
