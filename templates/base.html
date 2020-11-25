@@ -150,17 +150,17 @@
 <footer class="" id="footer">
   <div class="container-fluid" id="footer-div">
     <div class="row">
-             <div class="col mt-4" id="">
-             <p class="text-left text-black ml-5">Hawthorn Wine Co.<br>
+             <div class="col col-sm-4 col-md-4 col-lg-4 mt-4" id="">
+             <p class="text-left text-black">Hawthorn Wine Co.<br>
                 New Antrim St.<br>
                 Castlebar,<br>
                 Co. Mayo,<br>
                 F23 EE97
                 </p>
              </div>
- <div class="col mt-3" id="">
+ <div class="col col-sm-4 col-md-4 col-lg-4 mt-3" id="">
             <ul class="list-inline text-center mt-3">
-                     <li class="list-inline-item">
+                     <li class="">
                         <a href="https://twitter.com/" target="_blank">
                         <span class="fa-stack fa-lg">
                         <i class="fas fa-circle fa-stack-2x text-black"></i>
@@ -168,7 +168,7 @@
                         </span>
                         </a>
                      </li>
-                     <li class="list-inline-item">
+                     <li class="">
                         <a href="https://www.facebook.com/" target="_blank">
                         <span class="fa-stack fa-lg">
                         <i class="fas fa-circle fa-stack-2x text-black"></i>
@@ -176,7 +176,7 @@
                         </span>
                         </a>
                      </li>
-                     <li class="list-inline-item">
+                     <li class="">
                         <a href="https://www.instagram.com/" target="_blank">
                         <span class="fa-stack fa-lg">
                         <i class="fas fa-circle fa-stack-2x text-black"></i>
@@ -188,11 +188,13 @@
             
             </div>
 
-           <div class="col-4 mt-2 pr-3">
-                <img src="{{ MEDIA_URL }}abstract-tree.svg" alt="" id="tree-logo">
+           <div class="col col-sm-4 col-md-4 col-lg-4 mt-2 pr-3">
+                <a href="{% url 'home' %}" >
+                <img src="{{ MEDIA_URL }}abstract-tree.svg" alt="tree logo" id="tree-logo">
+                </a>
                 </div>
         </div>
-    <div class="row">
+    <div class="row copyright">
          <div class="col text-center">
             <span class="small">
             <i class="far fa-copyright"></i>
