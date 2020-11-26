@@ -19,7 +19,7 @@ body {
 
 /*  To keep Footer from moving up page on Login/Logout/Shopping bag screens etc. */
 .main {
-    height: 100vh !important;
+    min-height: 360px;
 }
 
 /* Logo Styling */
@@ -27,6 +27,12 @@ body {
 .logo-font {
     font-family: 'Amatic SC', cursive;
     font-size: 2.1em;
+    color: #000;
+}
+
+
+.logo-font:hover {
+    text-decoration: none !important;
 }
 
 .hawthorn {
@@ -36,9 +42,6 @@ body {
 .main-logo-link {
     width: fit-content;
 }
-
-
-
 
 
 /* TopNav Styling */
@@ -357,7 +360,7 @@ body {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 116px;
+        padding-top: 190px;
     }
 
     body {
@@ -463,23 +466,6 @@ footer ul li {
 }
 }
 
-
-a, u {
-    text-decoration: none;
-}
-
-
-
-@media screen and (max-width: 991px){
-    #hawthorn-sm {
-        display: block;
-        font-size: 1.1rem;
-    }
-}
-
-#hawthorn-sm {
-    color: #000;
-}
-#hawthorn-sm:hover {
-    text-decoration: none !important;
+.container-fluid hr {
+    margin: 0 auto;
 }
