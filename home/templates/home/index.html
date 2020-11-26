@@ -25,6 +25,48 @@
         </div>
     </div>
 
+<!-- Modal -->
+<div class="modal fade" id="ageID" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" id="modal">
+    <a href="https://www.google.com/search?q=grape+juice" target="_blank">
+    <button type="button" class="close text-right pt-1 pr-1">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </a>
+     <div class="mt-3 pr-2">
+                <img src="{{ MEDIA_URL }}abstract-tree.svg" alt="tree logo" id="tree-logo">
+                
+                </div>
+      <div class="modal-header">
+        <h5 class="modal-title logo-font mx-auto" id=""><strong class="hawthorn">Hawthorn</strong> Wine Co.</h5>
+      </div>
+      <div class="modal-body text-center">
+        <div class="row">
+        <div class="col">
+        <p class="">Please verify your age before proceeding:</p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col">
+        <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">I certify I am of legal drinking age</button>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col">
+        <a href="https://www.google.com/search?q=grape+juice" target="_blank">
+        <button type="button" href="" class="btn btn-primary mt-3 rounded-0">Exit</button>
+        </a>
+        </div>
+        </div>
+      </div>
+    
+      
+    </div>
+  </div>
+</div>
+
+
 
 
 {% endblock %}
@@ -32,4 +74,16 @@
 {% block page_footer %}
 
 {% include 'includes/footer.html' %}
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+<!-- Age Verification Modal -->
+    <script type="text/javascript">
+		$(window).on('load',function(){
+        $('#ageID').modal('show');
+        });
+	</script>
+    
+    
 {% endblock %}

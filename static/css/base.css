@@ -357,7 +357,7 @@ body {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* padding when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 190px;
@@ -385,9 +385,11 @@ body {
         font-size: 1rem;
     }
 
-    /* #delivery-banner h4 {
-        font-size: .85rem;
-    } */
+@media screen and (max-width: 767px){
+    #delivery-banner h4 {
+        font-size: .90rem;
+    }
+}
 
     .btn.btn-outline-black.rounded-0,
     .btn.btn-black.rounded-0 {
@@ -460,7 +462,6 @@ footer ul li {
         display: block;
     }
     #tree-logo {
-    max-width: 140px;
     min-width: 130px;
     margin-top: 20px; 
 }
@@ -469,3 +470,13 @@ footer ul li {
 .container-fluid hr {
     margin: 0 auto;
 }
+
+/* #ageID {
+    background: url('/media/contact2.jpg') no-repeat center center fixed;
+    background-color: black;
+} */
+
+#modal {
+    background-color: #fff7f2;
+}
+
