@@ -15,7 +15,11 @@
 <div class="main">
     <div class="overlay"></div>
     <div class="container mt-5">
-<h1 class="text-center text-success">WORKS</h1>
+ <div class="col mt-2 pr-2">
+    <a href="{% url 'contact' %}" >
+    <img src="{{ MEDIA_URL }}abstract-tree.svg" alt="tree logo" id="tree-logo">
+    </a>
+</div>
     </div>
 </div>
 {% endblock %}

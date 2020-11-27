@@ -1,7 +1,7 @@
 [
   {
-    "pk": 1,
     "model": "products.product",
+    "pk": 1,
     "fields": {
       "sku": "pp1540001",
       "name": "Festejar",
@@ -9,9 +9,9 @@
       "producer": "La Boheme / Patrick Bouju",
       "grapes": "Gamay",
       "area": "Auvergne",
-      "country": "France",
-     "category": 1,
-      "price": 64.5,
+      "country": 1,
+      "category": 1,
+      "price": "64.50",
       "alcohol_percentage": "10%",
       "description": "This is the cutest wine there is. Slightly sweet and finely bubbly gamay d'auvergne from the Bouju wizard. It's running too wild!",
       "tastes_good_for": "A cute sweater and no underpants",
@@ -19,8 +19,8 @@
     }
   },
   {
-    "pk": 2,
     "model": "products.product",
+    "pk": 2,
     "fields": {
       "sku": "pp1520002",
       "name": "Prosa",
@@ -28,9 +28,9 @@
       "producer": "Meinklang",
       "grapes": " Pinot noir, skt. lauren",
       "area": "Neusiedlersee",
-      "country": "Austria",
+      "country": 5,
       "category": 1,
-      "price": 45,
+      "price": "45.00",
       "alcohol_percentage": "0.5%",
       "description": "Bubbling adult juice FTW. This is so easy and refreshing and wonderful and bearable and well made. There is plenty of fruit squeezed into the acid trip, and the yeast tone is surprisingly (and liberatingly) low for a round of pætnaaaat (as they say it on Funen!). Hahaha. Buy 100 bottles right away.",
       "tastes_good_for": "Hacky sack competitions.",
@@ -38,8 +38,8 @@
     }
   },
   {
-    "pk": 3,
     "model": "products.product",
+    "pk": 3,
     "fields": {
       "sku": "pp1530003",
       "name": "Henri Dosnon",
@@ -47,9 +47,9 @@
       "producer": "Dosnon",
       "grapes": "Pinot noir",
       "area": "Champagne",
-      "country": "France",
+      "country": 1,
       "category": 1,
-      "price": 78,
+      "price": "78.00",
       "alcohol_percentage": "12%",
       "description": "Champagne available on all parameters. Fermented in steel tanks and therefore perfectly fresh and mineral. However, also gets a little dosage to provide balance. Instant and friendly baboon juice.",
       "tastes_good_for": "Party with communal bar.",
@@ -57,8 +57,8 @@
     }
   },
   {
-    "pk": 4,
     "model": "products.product",
+    "pk": 4,
     "fields": {
       "sku": "pp1550004",
       "name": "Pinky Wave",
@@ -66,9 +66,9 @@
       "producer": "Yeastaria",
       "grapes": "Barbera, cabernet franc, pinot nero, merlot, trebbiano",
       "area": "Veneto",
-      "country": "France",
+      "country": 2,
       "category": 1,
-      "price": 54.5,
+      "price": "54.50",
       "alcohol_percentage": "12%",
       "description": "Pink plum juice!!! This is really nice and fun and bubbly and wild. It tastes of poulsard on a  bucketful of sour coke, which is sniffed from a freshly polished samurai sword. Irk. It's a lot of fun and interesting and wonderfully easy to bellow.",
       "tastes_good_for": "really fierce wildness",
@@ -76,8 +76,8 @@
     }
   },
   {
-    "pk": 5,
     "model": "products.product",
+    "pk": 5,
     "fields": {
       "sku": "pp1510005",
       "name": "Govin",
@@ -85,18 +85,18 @@
       "producer": "Klitgaard",
       "grapes": "Frühburgunder, solaris",
       "area": "Funen",
-      "country": "Denmark",
+      "country": 4,
       "category": 1,
-      "price": 64.5,
+      "price": "64.50",
       "alcohol_percentage": "12%",
-      "description": "Wild and wonderful bubble juice from Funen. It is made in the champagne method - but without disgorging, so it is a plummeting dryness you push into the mouth. And hey man, just remember that the wine must be cold and the glasses ",
+      "description": "Wild and wonderful bubble juice from Funen. It is made in the champagne method - but without disgorging, so it is a plummeting dryness you push into the mouth. And hey man, just remember that the wine must be cold and the glasses",
       "tastes_good_for": "crazy garden parties.",
       "image": "govin.jpg"
     }
   },
   {
-    "pk": 6,
     "model": "products.product",
+    "pk": 6,
     "fields": {
       "sku": "pp1550006",
       "name": "O-X",
@@ -104,9 +104,9 @@
       "producer": "Costadilà",
       "grapes": "Glera, pinot noi",
       "area": "Veneto",
-      "country": "Italy",
+      "country": 2,
       "category": 1,
-      "price": 80,
+      "price": "80.00",
       "alcohol_percentage": "10.5%",
       "description": " Because you have a bottle of Costadila juice standing in the background, your pretentious and self-centered friends choose your event over a really bold and trending popup on Falang. And then you have won in life itself.",
       "tastes_good_for": "Spontaneously fermented hipster party",
@@ -114,8 +114,8 @@
     }
   },
   {
-    "pk": 7,
     "model": "products.product",
+    "pk": 7,
     "fields": {
       "sku": "pp1540007",
       "name": "Moon Bulle",
@@ -123,9 +123,9 @@
       "producer": "Sons of Wine / Farid Yahimi",
       "grapes": " Red Muscat, Auxerrois",
       "area": "Alsace",
-      "country": "France",
+      "country": 1,
       "category": 1,
-      "price": 64.5,
+      "price": "64.50",
       "alcohol_percentage": "12%",
       "description": "If Armstrong and those two other astro-types were to drink something sweaty on the moon the next time they go up there, then this should definitely be it.",
       "tastes_good_for": "Cloudburst",
@@ -133,8 +133,8 @@
     }
   },
   {
-    "pk": 8,
     "model": "products.product",
+    "pk": 8,
     "fields": {
       "sku": "pp1510008",
       "name": "Arôme Rouge",
@@ -142,9 +142,9 @@
       "producer": "Apple Root / Forbidden Fruits",
       "grapes": "Aroma apples, blueberries and miscellaneous",
       "area": "Zealand",
-      "country": "Denmark",
+      "country": 4,
       "category": 1,
-      "price": 64.5,
+      "price": "64.50",
       "alcohol_percentage": "7%",
       "description": "Just check the color of this plaffer juice? You just know it good!",
       "tastes_good_for": "Cutting Knud Rohmer's hair",
@@ -152,8 +152,8 @@
     }
   },
   {
-    "pk": 9,
     "model": "products.product",
+    "pk": 9,
     "fields": {
       "sku": "pp4550001",
       "name": "Rosso di Valtellina",
@@ -161,9 +161,9 @@
       "producer": "Arpepe",
       "grapes": "Nebbiolo",
       "area": "Lombardy",
-      "country": "Italy",
+      "country": 2,
       "category": 4,
-      "price": 45.5,
+      "price": "45.50",
       "alcohol_percentage": "13.5",
       "description": "This is a classic and nice nebbiolo",
       "tastes_good_for": "Meat carousels",
@@ -171,8 +171,8 @@
     }
   },
   {
-    "pk": 10,
     "model": "products.product",
+    "pk": 10,
     "fields": {
       "sku": "pp4550002",
       "name": "Le Trame",
@@ -180,9 +180,9 @@
       "producer": "Le Boncie",
       "grapes": "Sangiovese",
       "area": "Tuscany",
-      "country": "Italy",
+      "country": 2,
       "category": 4,
-      "price": 24.99,
+      "price": "24.99",
       "alcohol_percentage": "14%",
       "description": "Classic and wonderful sangiovese with a bit of seriousness. Just let the rainstorms come and the winter storm hits.",
       "tastes_good_for": "Meat in a pan",
@@ -190,8 +190,8 @@
     }
   },
   {
-    "pk": 11,
     "model": "products.product",
+    "pk": 11,
     "fields": {
       "sku": "pp4560003",
       "name": "Les Paradetes",
@@ -199,9 +199,9 @@
       "producer": "Escoda-Sanahuja / Joan Ramón Escodav",
       "grapes": "Grenache, samsó",
       "area": "Conca de Barbera",
-      "country": "Spain",
+      "country": 3,
       "category": 4,
-      "price": 14.99,
+      "price": "14.99",
       "alcohol_percentage": "11%",
       "description": "The badger is the new fox.",
       "tastes_good_for": "Days with shotguns and good friends.",
@@ -209,8 +209,8 @@
     }
   },
   {
-    "pk": 12,
     "model": "products.product",
+    "pk": 12,
     "fields": {
       "sku": "pp4520004",
       "name": "Dope",
@@ -218,9 +218,9 @@
       "producer": "Claus Preisinger",
       "grapes": "Blaufränkisch",
       "area": "Neusiedlersee",
-      "country": "Austria",
+      "country": 5,
       "category": 4,
-      "price": 29.99,
+      "price": "29.99",
       "alcohol_percentage": "11.5%",
       "description": "What should I write about it, other than….dope!!",
       "tastes_good_for": " A good burnt crime story",
@@ -228,8 +228,8 @@
     }
   },
   {
-    "pk": 13,
     "model": "products.product",
+    "pk": 13,
     "fields": {
       "sku": "pp4240005",
       "name": "Mr. Baumann",
@@ -237,9 +237,9 @@
       "producer": "Quantum Winery",
       "grapes": "Portuguese",
       "area": " Lower Austria",
-      "country": "Austria",
+      "country": 5,
       "category": 4,
-      "price": 50,
+      "price": "50.00",
       "alcohol_percentage": "10.5%",
       "description": "Many people think that Portuguese people taste a little dark and scratchy. In a bad way, of course. But when Florian sprinkles his unicorn dust over his Portuguese grapes, it turns into completely light and aromatic wine.",
       "tastes_good_for": "Some armed jazz",
@@ -247,8 +247,8 @@
     }
   },
   {
-    "pk": 14,
     "model": "products.product",
+    "pk": 14,
     "fields": {
       "sku": "pp4540006",
       "name": "Le Pinotctambule",
@@ -256,9 +256,9 @@
       "producer": "Philippe Bornard",
       "grapes": "Ploussard",
       "area": " Law",
-      "country": "France",
+      "country": 1,
       "category": 4,
-      "price": 33,
+      "price": "33.00",
       "alcohol_percentage": "12%",
       "description": "The boss's son is also good at making wine.",
       "tastes_good_for": "Cleaning the kayak",
@@ -266,8 +266,8 @@
     }
   },
   {
-    "pk": 15,
     "model": "products.product",
+    "pk": 15,
     "fields": {
       "sku": "pp4540007",
       "name": "Le Ginglet",
@@ -275,9 +275,9 @@
       "producer": "Philippe Bornard",
       "grapes": "Trousseau",
       "area": "Law",
-      "country": "France",
+      "country": 1,
       "category": 4,
-      "price": 26.99,
+      "price": "26.99",
       "alcohol_percentage": "12%",
       "description": "It tastes really good!",
       "tastes_good_for": "Mushrooms",
@@ -285,8 +285,8 @@
     }
   },
   {
-    "pk": 16,
     "model": "products.product",
+    "pk": 16,
     "fields": {
       "sku": "pp4540008",
       "name": "L'ivresse des Profondeurs",
@@ -294,9 +294,9 @@
       "producer": "Val de Combrés",
       "grapes": "Cabernet franc, grenache, syrah",
       "area": "Rhône",
-      "country": "France",
+      "country": 1,
       "category": 4,
-      "price": 19.99,
+      "price": "19.99",
       "alcohol_percentage": "14%",
       "description": "80’s vibes",
       "tastes_good_for": "Bonfire and meat",
@@ -304,8 +304,8 @@
     }
   },
   {
-    "pk": 17,
     "model": "products.product",
+    "pk": 17,
     "fields": {
       "sku": "pp3530001",
       "name": "380 Volts",
@@ -313,9 +313,9 @@
       "producer": "Milan Nestarec",
       "grapes": "Muller Thurgau, neuburger",
       "area": "Moravia",
-      "country": "Czech Republic",
+      "country": 8,
       "category": 3,
-      "price": 11,
+      "price": "11.00",
       "alcohol_percentage": "12%",
       "description": "A pleasant shock to the system",
       "tastes_good_for": "Asphalt laying in a warm environment",
@@ -323,8 +323,8 @@
     }
   },
   {
-    "pk": 18,
     "model": "products.product",
+    "pk": 18,
     "fields": {
       "sku": "pp3540002",
       "name": "Agape Savagnin Ouillé",
@@ -332,9 +332,9 @@
       "producer": "Ratapoil",
       "grapes": "Savagnizzle",
       "area": "Law",
-      "country": "France",
+      "country": 1,
       "category": 3,
-      "price": 17.99,
+      "price": "17.99",
       "alcohol_percentage": "13%",
       "description": "Tall and lively and just the kind of thing you like;) ",
       "tastes_good_for": "Meat. Sensual flesh.",
@@ -342,8 +342,8 @@
     }
   },
   {
-    "pk": 19,
     "model": "products.product",
+    "pk": 19,
     "fields": {
       "sku": "pp3540003",
       "name": "Aligoté Burgundy",
@@ -351,9 +351,9 @@
       "producer": "Chapuis & Chapuis",
       "grapes": "Domga",
       "area": "Burgundy",
-      "country": "France",
+      "country": 1,
       "category": 3,
-      "price": 24.99,
+      "price": "24.99",
       "alcohol_percentage": "12%",
       "description": "It's just extremely precise and straightforward and utterly glorious. Huge run on crisp wine (and then the label is also lovely if you are that type.",
       "tastes_good_for": "Seafood (and that applies to you, Mr. Oysters!)",
@@ -361,8 +361,8 @@
     }
   },
   {
-    "pk": 20,
     "model": "products.product",
+    "pk": 20,
     "fields": {
       "sku": "pp3540004",
       "name": "Amalgamé",
@@ -370,9 +370,9 @@
       "producer": "Boulanger & Allante",
       "grapes": "Yes. Red.",
       "area": "Law",
-      "country": "France",
+      "country": 1,
       "category": 3,
-      "price": 33,
+      "price": "33.00",
       "alcohol_percentage": "12%",
       "description": "beauty personified",
       "tastes_good_for": "With onions",
@@ -380,8 +380,8 @@
     }
   },
   {
-    "pk": 21,
     "model": "products.product",
+    "pk": 21,
     "fields": {
       "sku": "pp3550005",
       "name": "Barracuda",
@@ -389,9 +389,9 @@
       "producer": "Yeasteria",
       "grapes": "Durello, vespaiola, pinot bianco",
       "area": "Veneto",
-      "country": "Italy",
+      "country": 2,
       "category": 3,
-      "price": 29.99,
+      "price": "29.99",
       "alcohol_percentage": "13%",
       "description": " Aromatic and wild jazz wine. It's really crisp and vibrant and nice and understandable.  Lots of structure and finesse and balance.  It is dangerously easy to drink.",
       "tastes_good_for": "Saturday night",
@@ -399,8 +399,8 @@
     }
   },
   {
-    "pk": 22,
     "model": "products.product",
+    "pk": 22,
     "fields": {
       "sku": "pp3550006",
       "name": "Bianco",
@@ -408,9 +408,9 @@
       "producer": "Le Coste",
       "grapes": "Procanico, malvasia",
       "area": "Lazio",
-      "country": "Italy",
+      "country": 2,
       "category": 3,
-      "price": 45.5,
+      "price": "45.50",
       "alcohol_percentage": "12.5%",
       "description": "This is damn top of the pop when it comes to natural wine with nerve, wildness, depth and psychopathic balance. It is both big and mouthwatering. And infinitely interesting. It is such a bottle you should always have lying in your basement.",
       "tastes_good_for": "EVERYTHING!",
@@ -418,8 +418,8 @@
     }
   },
   {
-    "pk": 23,
     "model": "products.product",
+    "pk": 23,
     "fields": {
       "sku": "pp3560007",
       "name": "Desvelao",
@@ -427,9 +427,9 @@
       "producer": "40jos wines",
       "grapes": "Moscatel",
       "area": "Cadiz",
-      "country": "Spain",
+      "country": 3,
       "category": 3,
-      "price": 9.99,
+      "price": "9.99",
       "alcohol_percentage": "13%",
       "description": "Whuuuuut ?! Moscatell in the driest way with seven months under bloom. Oooohyyyyes, this one tastes big and good and wild and real.",
       "tastes_good_for": "Dry cheese and autumn vibrations",
@@ -437,8 +437,8 @@
     }
   },
   {
-    "pk": 24,
     "model": "products.product",
+    "pk": 24,
     "fields": {
       "sku": "pp3540008",
       "name": "Dharma",
@@ -446,9 +446,9 @@
       "producer": "Sons of Wine / Farid Yahimi / Jean-Marc Dreyer",
       "grapes": "Jeps",
       "area": "Alsace",
-      "country": "France",
+      "country": 1,
       "category": 3,
-      "price": 21,
+      "price": "21.00",
       "alcohol_percentage": "14%",
       "description": "Psychedelic",
       "tastes_good_for": "Garden parties at night",
@@ -456,8 +456,8 @@
     }
   },
   {
-    "pk": 25,
     "model": "products.product",
+    "pk": 25,
     "fields": {
       "sku": "pp3540009",
       "name": "Fawn",
@@ -465,9 +465,9 @@
       "producer": "The Other Right",
       "grapes": "Chardonnay",
       "area": "Loire",
-      "country": "France",
+      "country": 7,
       "category": 3,
-      "price": 14.99,
+      "price": "14.99",
       "alcohol_percentage": "12.3%",
       "description": "Cuuuuuuute",
       "tastes_good_for": "post table-tennis marathon",
@@ -475,8 +475,8 @@
     }
   },
   {
-    "pk": 26,
     "model": "products.product",
+    "pk": 26,
     "fields": {
       "sku": "pp2540001",
       "name": "Coteaux Bourguignons Rosé",
@@ -484,9 +484,9 @@
       "producer": "Chapuis & Chapuis",
       "grapes": "Gamay",
       "area": "Burgundy",
-      "country": "France",
+      "country": 1,
       "category": 2,
-      "price": 19.99,
+      "price": "19.99",
       "alcohol_percentage": "13%",
       "description": "Because this is summer in a bottle, even if you bully it in February. Ultra-complex and yet death-defying rosé from the upcoming cult winemaker, who is Romain Chapuis.",
       "tastes_good_for": "Hipstah parents",
@@ -494,8 +494,8 @@
     }
   },
   {
-    "pk": 27,
     "model": "products.product",
+    "pk": 27,
     "fields": {
       "sku": "pp2550002",
       "name": "Freaky",
@@ -503,9 +503,9 @@
       "producer": "SETE",
       "grapes": "Ottonese, sangiovese, moscato",
       "area": "Lazio",
-      "country": "Italy",
-      "price": 49.5,
+      "country": 2,
       "category": 2,
+      "price": "49.50",
       "alcohol_percentage": "10%",
       "description": "This wine is the essence of a wild aromatic and refreshing style. It's a party firework of aromatics and peacock feathers and Pirlo passes inside your mouth.",
       "tastes_good_for": "Drinking extra chilled while feeling extra wild",
@@ -513,8 +513,8 @@
     }
   },
   {
-    "pk": 28,
     "model": "products.product",
+    "pk": 28,
     "fields": {
       "sku": "pp2570003",
       "name": "Devín",
@@ -522,9 +522,9 @@
       "producer": "Velkeer",
       "grapes": "Devín",
       "area": "Nitra",
-      "country": "Slovakia",
-      "price": 29.5,
+      "country": 6,
       "category": 2,
+      "price": "29.50",
       "alcohol_percentage": "11%",
       "description": "A Clockwork Orange in a bottle",
       "tastes_good_for": "Navigating the mind",
@@ -532,8 +532,8 @@
     }
   },
   {
-    "pk": 29,
     "model": "products.product",
+    "pk": 29,
     "fields": {
       "sku": "pp2520004",
       "name": "Light-red No. 29",
@@ -541,9 +541,9 @@
       "producer": "Franz Strohmeier",
       "grapes": "Blue wildbacher",
       "area": "Styria",
-      "country": "Austria",
-      "price": 70,
+      "country": 5,
       "category": 2,
+      "price": "70.00",
       "alcohol_percentage": "11.5%",
       "description": "Soooo, this is elegant. Like Britt Bendix",
       "tastes_good_for": "Foot massage",
@@ -551,8 +551,8 @@
     }
   },
   {
-    "pk": 30,
     "model": "products.product",
+    "pk": 30,
     "fields": {
       "sku": "pp2520005",
       "name": "Speedball",
@@ -560,9 +560,9 @@
       "producer": "Drudgaard Vin",
       "grapes": "Cabernet cortis, orion, zalas",
       "area": "Funen",
-      "country": "Denmark",
-      "price": 70,
+      "country": 4,
       "category": 2,
+      "price": "70.00",
       "alcohol_percentage": "10%",
       "description": "This would be the rosé of the year in Ebberup if there was such a competition there.  There isn’t.",
       "tastes_good_for": "Tangible work",
@@ -570,8 +570,8 @@
     }
   },
   {
-    "pk": 31,
     "model": "products.product",
+    "pk": 31,
     "fields": {
       "sku": "pp2550006",
       "name": "Rosato",
@@ -579,9 +579,9 @@
       "producer": "Le Coste",
       "grapes": "Aleatico",
       "area": "Lazio",
-      "country": "Italy",
-      "price": 24,
+      "country": 2,
       "category": 2,
+      "price": "24.00",
       "alcohol_percentage": "13%",
       "description": "Legendary rosé from the very intense Gianmarco.  This is a cult rosé",
       "tastes_good_for": "Violent amounts of LSD",
@@ -589,8 +589,8 @@
     }
   },
   {
-    "pk": 32,
     "model": "products.product",
+    "pk": 32,
     "fields": {
       "sku": "pp2530007",
       "name": "Bum Bum Cha",
@@ -598,9 +598,9 @@
       "producer": "Milan Nestarec",
       "grapes": "Riesling, blaufränkisch",
       "area": "Moravia",
-      "country": "Czech Republic",
-      "price": 29.99,
+      "country": 8,
       "category": 2,
+      "price": "29.99",
       "alcohol_percentage": "12%",
       "description": "Tastes like the rainbow just before it appears",
       "tastes_good_for": "Planning balcony constructions",
@@ -608,8 +608,8 @@
     }
   },
   {
-    "pk": 33,
     "model": "products.product",
+    "pk": 33,
     "fields": {
       "sku": "pp2570008",
       "name": "Organic",
@@ -617,9 +617,9 @@
       "producer": "Organic Anarchy",
       "grapes": "Riesling",
       "area": "Styria",
-      "country": "Slovenia",
-      "price": 29.99,
+      "country": 6,
       "category": 2,
+      "price": "29.99",
       "alcohol_percentage": "11%",
       "description": "The man behind Organic Anarchy is named Aci Urbajs. Super bold type that is both tall and good at making wild wine. This is wild and deep and funny and did we say wild?",
       "tastes_good_for": "Large ceramic projects",

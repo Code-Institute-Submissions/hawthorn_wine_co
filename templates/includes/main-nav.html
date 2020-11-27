@@ -16,14 +16,15 @@
             <a class="font-weight-bold nav-link text-black all-links mr-5" href="#" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Country<i class="fas fa-caret-down ml-1"></i>
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Italy</a>
-                <a href="" class="dropdown-item">France</a>
-                <a href="" class="dropdown-item">Spain</a>
-                <a href="" class="dropdown-item">Austria</a>
-                <a href="" class="dropdown-item">Denmark</a>
-                <a href="" class="dropdown-item">Portugal</a>
-                <a href="" class="dropdown-item">Other</a>
+            <div class="dropdown-menu border-0" aria-labelledby="country-link">
+             <a href="{% url 'products' %}?country=austria" class="dropdown-item">Austria</a>
+            <a href="{% url 'products' %}?country=australia" class="dropdown-item">Australia</a>
+            <a href="{% url 'products' %}?country=czech_rep" class="dropdown-item">Czech Rep</a>
+            <a href="{% url 'products' %}?country=denmark" class="dropdown-item">Denmark</a>
+             <a href="{% url 'products' %}?country=france" class="dropdown-item">France</a>
+            <a href="{% url 'products' %}?country=italy" class="dropdown-item">Italy</a>
+            <a href="{% url 'products' %}?country=spain" class="dropdown-item">Spain</a>
+             <a href="{% url 'products' %}?country=slovakia" class="dropdown-item">Slovakia</a>
             </div>
         </li>
 

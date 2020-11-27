@@ -38,7 +38,7 @@ class Product(models.Model):
     producer = models.CharField(max_length=254, null=True, blank=True)
     grapes = models.CharField(max_length=254, null=True, blank=True)
     area = models.CharField(max_length=254, null=True, blank=True)
-    country = models.CharField(max_length=254, null=True, blank=True)
+    country = models.ForeignKey('Country', null=True, blank=True, on_delete=models.SET_NULL)
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     alcohol_percentage = models.CharField(max_length=254, null=True, blank=True)
