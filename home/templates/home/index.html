@@ -71,19 +71,14 @@
 
 {% endblock %}
 
-{% block page_footer %}
-
-{% include 'includes/footer.html' %}
-{% endblock %}
-
 {% block postloadjs %}
     {{ block.super }}
 <!-- Age Verification Modal -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
 		$(window).on('load',function(){
         $('#ageID').modal('show');
         });
-	</script>
+	</script> -->
     
     
 {% endblock %}

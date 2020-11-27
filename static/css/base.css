@@ -471,12 +471,65 @@ footer ul li {
     margin: 0 auto;
 }
 
-/* #ageID {
-    background: url('/media/contact2.jpg') no-repeat center center fixed;
-    background-color: black;
-} */
+
 
 #modal {
     background-color: #fff7f2;
 }
+
+/* ### CONTACT PAGE ### */
+
+#contact-logo {
+      border: 5px double rgb(87, 82, 82);
+}
+.contact-fa {
+    display: inline-block;
+}
+
+.fone {
+    font-size: 1.2rem;
+}
+
+#textarea {
+height: 200px;
+resize: none;
+}
+
+/*  ### WINE CLUB ###  */
+
+.club-image {
+    background-image: linear-gradient(rgba(143, 106, 106, 0.5), rgba(153, 112, 112, 0.5)), url('/media/contact1.jpg');
+    height:100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.club-h1 {
+    margin-top: 200px;
+   font-size: 60px;
+   letter-spacing: 15px;
+}
+
+.club-hr {
+    width: 50%;
+    margin: 30px auto;
+    border: 1.5px solid #fff;
+}
+
+#launch {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
 

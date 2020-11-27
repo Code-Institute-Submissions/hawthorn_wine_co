@@ -14,12 +14,76 @@
 {% block content %}
 <div class="main">
     <div class="overlay"></div>
-    <div class="container mt-5">
- <div class="col mt-2 pr-2">
-    <a href="{% url 'contact' %}" >
-    <img src="{{ MEDIA_URL }}abstract-tree.svg" alt="tree logo" id="tree-logo">
-    </a>
-</div>
-    </div>
-</div>
+        <div class="container mt-5">
+             <div class="row">
+                <div class="col-12 my-auto ml-3 text-center" id="contact-logo">
+                    <h2 class="logo-font text-black"><strong class="hawthorn">Hawthorn</strong>
+                        <br> Wine Co.</h2>
+                        <hr class="py-2">
+                            <p class="text-center text-black"><strong>TUESDAY - SUNDAY:</strong> 11am - 8pm</p>  
+                            <p class="text-center">Hawthorn Wine Co. New Antrim St. Castlebar, Co. Mayo, F23 EE97</p>
+                        <a href="https://www.google.com/maps/@51.47279,-2.5909704,3a,75y,121.56h,90.02t/data=!3m7!1e1!3m5!1sAF1QipNnn2AAzAzenD5QvGhQZRSlVS_r5mTmo1sPy8CG!2e10!3e2!7i13312!8i6656" target="_blank">
+                            <button type="button" class="btn btn-success btn-lg mt-2 mb-3">LOOK INSIDE OUR STORE</button>
+                        </a>
+                    </div>
+                 </div>
+
+            <div class="row">
+            <div class="col mt-5">
+            <h1 class="text-center text-black">CONTACT</h1>
+            <p class="text-center">We’re delighted you’re visiting this site, but if you have an enquiry and would like to talk to a person or send an email, our contact details are below. And of course we would be very pleased to meet you in person so if you’re in the area, do drop in.</p>
+                       <ul class="list-inline text-center mt-4">
+                     <li class="contact-fa">
+                        <a href="https://twitter.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     <li class="contact-fa">
+                        <a href="https://www.facebook.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                     <li class="contact-fa">
+                        <a href="https://www.instagram.com/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x text-black"></i>
+                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                     </li>
+                  </ul>
+            <p class="text-center text-black fone"><i class="fas fa-phone-square-alt mr-2"></i><strong>Tel:</strong> +353 94 90 00000</p>
+            <p class="text-center text-black fone"><i class="fas fa-envelope mt-1 mr-2"></i><strong>info@hawthornwineco.com</strong></p>
+            <p class="text-center text-black fone"><strong>Hawthorn Wine Co. New Antrim St. Castlebar, Co. Mayo, F23 EE97</strong></p>
+            <form>
+<div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="exampleFormControlInput1">Name*</label>
+    <input type="email" class="form-control" id="customerName" placeholder="" required>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="exampleFormControlInput1">Email Address*</label>
+    <input type="email" class="form-control" id="customerEmail" placeholder="" required>
+  </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="textarea" rows="3"></textarea>
+  </div>
+  <div class="d-flex justify-content-center">
+  <button type="submit" class="btn btn-success ml-2">Submit</button>
+  </div>
+</form>
+            
+            </div>
+            </div>
+
+             </div>
+        </div>
 {% endblock %}
