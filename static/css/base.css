@@ -17,12 +17,12 @@ body {
 }
 
 
-/*  To keep Footer from moving up page on Login/Logout/Shopping bag screens etc. */
+/*  Keep Footer to bottom of page on Login/Logout/Shopping bag screens etc. */
 .main {
     min-height: 360px;
 }
 
-/* Logo Styling */
+/*  ### Logo Styling ### */
 
 .logo-font {
     font-family: 'Amatic SC', cursive;
@@ -44,7 +44,7 @@ body {
 }
 
 
-/* TopNav Styling */
+/* ### TopNav Styling ### */
 
 .headings-font{
     font-family: 'Montserrat', sans-serif;
@@ -72,7 +72,7 @@ body {
 
 
 
-/* Banner Styling */
+/* ### Banner Styling ###  */
 
 #banner {
     font-size: 1.3em;
@@ -406,7 +406,7 @@ body {
         padding: .25rem .5rem !important;
     }
 
-/*   Footer Styling  */
+/*   ### Footer Styling ###  */
 
  #footer {
     background-color: #fff7f2; 
@@ -418,9 +418,6 @@ body {
     background-color: #fff7f2; 
 }
 
-
-
-
 .fontawesome:hover,
 .fontawesome:active,
 .fontawesome:focus {
@@ -429,8 +426,6 @@ body {
     background: #fff7f2;
     color:black;
 }
-
-
 
 
 #tree-logo {
@@ -467,11 +462,13 @@ footer ul li {
 }
 }
 
+/* ### <hr> beneath Product Searches ### */
+
 .container-fluid hr {
     margin: 0 auto;
 }
 
-
+/* ### Age Verification Modal */
 
 #modal {
     background-color: #fff7f2;
