@@ -109,10 +109,7 @@ Click the link below to run my project in the live environment:
 
     -   Home Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/homepage-wireframe.jpg)
 
-    ![test image size](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/homepage-wireframe.jpg){:height="700px" width="400px"}
-
-     [View]<img src="(https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/homepage-wireframe.jpg)" alt="drawing" height="200" width="200"/>
-
+    [View]<img src="documentation/images/contact-wireframe.jpg" width="100" height="100" alt="">
 
     -   Mobile Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/mobile-wireframe.jpg)
 
