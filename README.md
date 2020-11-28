@@ -109,11 +109,14 @@ Click the link below to run my project in the live environment:
 
     -   Home Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/homepage-wireframe.jpg)
 
-    -   Mobile Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/blob/master/documentation/images/mobile-wireframe.jpg)
+    ![test image size](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/homepage-wireframe.jpg){:height="700px" width="400px"}
 
-    -   Products Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/blob/master/documentation/images/products-wireframe.jpg)
 
-    -   Browse Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/blob/master/documentation/images/contact-wireframe.jpg)
+    -   Mobile Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/mobile-wireframe.jpg)
+
+    -   Products Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/products-wireframe.jpg)
+
+    -   Browse Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/contact-wireframe.jpg)
 
 ## Features
 
