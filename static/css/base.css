@@ -16,6 +16,9 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
+a:hover {
+     text-decoration: none !important;
+}
 
 /*  Keep Footer to bottom of page on Login/Logout/Shopping bag screens etc. */
 .main {
@@ -66,6 +69,7 @@ body {
     background-color:#fff7f2;
 } 
 
+
 .all-links:hover {
     color: rgb(97, 89, 89) !important;
 }
@@ -85,9 +89,11 @@ body {
 }
 
 /* friendly_name display */
-#friendly-display {
+.friendly-display {
     font-size: 2.8em;
 }
+
+
 
 #tagline {
     font-size: 2.8em;

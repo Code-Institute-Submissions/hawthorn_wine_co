@@ -15,7 +15,10 @@
         <div class="row">
             <div class="col text-center mt-3">
                 {% for c in current_categories %}
-                <h2 class="logo-font text-black pt-3" id="friendly-display">{{ c.friendly_name }}</h2>
+                <h2 class="logo-font text-black pt-3 friendly-display">{{ c.friendly_name }}</h2>
+                {% endfor %}
+                {% for c in current_countries %}
+                <h2 class="logo-font text-black pt-3 mb-3 friendly-display">{{ c.friendly_name }}</h2>
                 {% endfor %}
                 <hr class="w-50 mb-2">
             </div>
@@ -57,7 +60,9 @@
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
-                                    <p class="mb-0">{{ product.name }}</p>
+                                <a href="{% url 'product_detail' product.id %}">
+                                    <p class="mb-0 text-black all-links">{{ product.name }}</p>
+                                </a>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
@@ -108,7 +113,7 @@
     </div>
     <div class="btt-button shadow-sm rounded-0 border border-black">
         <a class="btt-link d-flex h-100">
-            <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+            <i class="fas fa-arrow-up text-black all-links mx-auto my-auto"></i>
         </a>	
     </div>
 {% endblock %}

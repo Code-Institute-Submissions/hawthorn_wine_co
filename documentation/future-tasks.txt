@@ -1,0 +1,11 @@
+
+Left To-Do On Site:
+
+Things I ran out of time on or wasn't able to do./
+
+1. Email Confirmation link is not a clickable link in User's email.  
+2. Wire up Form Submission to Company Email.
+3. Success/Error Toasts to Fade Out Automatically.
+4. Back-to-Top Scroll icon could be styled a little better.
+5. Implement Wine Club.
+6. Landing page photo positioning on Mobile could be improved.
