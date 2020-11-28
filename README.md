@@ -15,14 +15,14 @@ Click the link below to run my project in the live environment:
 1. [Introduction](#introduction) -->
 
 ## Table of Contents
->1. [UX](#ux)
->2. [Goals](#goals)
->    + [User Goals](#user-goals)
->    + [Site Owner Goals](#business-goals)
->3.  [User Stories](#user-stories)
->4.  [Wireframes](#wireframes)
->5.  [Design Choices](#design-choices)
->    + [Color Choice](#color-choice)
+* [UX](#ux)
+* [Goals](#goals)
+     + [User Goals](#user-goals)
+     + [Site Owner Goals](#business-goals)
+*  [User Stories](#user-stories)
+*  [Wireframes](#wireframes)
+*  [Design Choices](#design-choices)
+    + [Color Choice](#color-choice)
 >    + [Typography](#typography)
 >      - [Title Font](#title-font)
 >      - [Base Font](#base-font)
