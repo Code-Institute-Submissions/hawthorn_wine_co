@@ -107,13 +107,13 @@ Click the link below to run my project in the live environment:
 *   ### Wireframes
     -   I drew the Wireframes for this project as I find drawing them allows for more detailed notes as well as being a more efficient  use of time.
 
-    -   Home Page Wireframe - [View](https://github.com/jmurrii/MS3/blob/master/documentation/images/homepage-wireframe.jpg)
+    -   Home Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/homepage-wireframe.jpg)
 
-    -   Mobile Wireframe - [View](https://github.com/jmurrii/MS3/blob/master/documentation/images/mobile-wireframe.jpg)
+    -   Mobile Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/blob/master/documentation/images/mobile-wireframe.jpg)
 
-    -   Products Page Wireframe - [View](https://github.com/jmurrii/MS3/blob/master/documentation/images/products-wireframe.jpg)
+    -   Products Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/blob/master/documentation/images/products-wireframe.jpg)
 
-    -   Browse Page Wireframe - [View](https://github.com/jmurrii/MS3/blob/master/documentation/images/contact-wireframe.jpg)
+    -   Browse Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/blob/master/documentation/images/contact-wireframe.jpg)
 
 ## Features
 
