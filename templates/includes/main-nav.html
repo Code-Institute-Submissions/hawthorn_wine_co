@@ -1,43 +1,40 @@
 <div class="collapse navbar-collapse headings-font" id="main-nav">
-    <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black all-links mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Type<i class="fas fa-caret-down ml-1"></i></a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?category=red_wine" class="dropdown-item">Red</a>
-                <a href="{% url 'products' %}?category=white_wine" class="dropdown-item ">White</a>
-                <a href="{% url 'products' %}?category=rosé" class="dropdown-item ">Rosé</a>
-                <a href="{% url 'products' %}?category=bubbles" class="dropdown-item ">Bubbles</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black all-links mr-5" href="#" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Country<i class="fas fa-caret-down ml-1"></i>
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="country-link">
-             <a href="{% url 'products' %}?country=austria" class="dropdown-item">Austria</a>
+   <ul class="navbar-nav w-auto mx-auto">
+      <li class="nav-item dropdown">
+         <a class="font-weight-bold nav-link text-black all-links mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Type<i class="fas fa-caret-down ml-1"></i></a>
+         <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <a href="{% url 'products' %}?category=red_wine" class="dropdown-item">Red</a>
+            <a href="{% url 'products' %}?category=white_wine" class="dropdown-item ">White</a>
+            <a href="{% url 'products' %}?category=rosé" class="dropdown-item ">Rosé</a>
+            <a href="{% url 'products' %}?category=bubbles" class="dropdown-item ">Bubbles</a>
+            <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown">
+         <a class="font-weight-bold nav-link text-black all-links mr-5" href="#" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Country<i class="fas fa-caret-down ml-1"></i>
+         </a>
+         <div class="dropdown-menu border-0" aria-labelledby="country-link">
+            <a href="{% url 'products' %}?country=austria" class="dropdown-item">Austria</a>
             <a href="{% url 'products' %}?country=australia" class="dropdown-item">Australia</a>
             <a href="{% url 'products' %}?country=czech_rep" class="dropdown-item">Czech Rep</a>
             <a href="{% url 'products' %}?country=denmark" class="dropdown-item">Denmark</a>
-             <a href="{% url 'products' %}?country=france" class="dropdown-item">France</a>
+            <a href="{% url 'products' %}?country=france" class="dropdown-item">France</a>
             <a href="{% url 'products' %}?country=italy" class="dropdown-item">Italy</a>
             <a href="{% url 'products' %}?country=spain" class="dropdown-item">Spain</a>
-             <a href="{% url 'products' %}?country=slovakia" class="dropdown-item">Slovakia</a>
-            </div>
-        </li>
-
-        <li class="nav-item">
-            <a class="font-weight-bold nav-link text-black mr-5 all-links" href="{% url 'wineclub' %}" id="">
-                Wine Club
-            </a>
-        </li>
-
-        <li class="nav-item">
-            <a class="font-weight-bold nav-link text-black all-links" href="{% url 'contact' %}" id="">
-                Contact
-            </a>
-        </li>
-    </ul>
+            <a href="{% url 'products' %}?country=slovakia" class="dropdown-item">Slovakia</a>
+         </div>
+      </li>
+      <li class="nav-item">
+         <a class="font-weight-bold nav-link text-black mr-5 all-links" href="{% url 'wineclub' %}" id="">
+         Wine Club
+         </a>
+      </li>
+      <li class="nav-item">
+         <a class="font-weight-bold nav-link text-black all-links" href="{% url 'contact' %}" id="">
+         Contact
+         </a>
+      </li>
+   </ul>
 </div>

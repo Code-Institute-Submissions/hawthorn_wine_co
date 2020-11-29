@@ -25,24 +25,14 @@ Click the link below to run my project in the live environment:
       * [Typography](#typography)
       * [Image Choice](#image-choice)
       * [Wireframes](#wireframes)
-     
-7. [Features](#features)
-       * [Implemented Features](#implemented
-8. [Technologies Used](#technologies-used)
-    * [Programming Languages](#programming-languages)
-    * [Framework & Extensions](#framework--extensions)
-    * [Fonts](#fonts)
-    * [Tools](#tools)
-    * [APIs](#apis)
-9. [Defensive Programming](#defensive-programming)
-         * [Additional Security Checks](#additional-security-checks)
-         * [Custom Validation](#custom-validation)
-10. [Testing](#testing)
-11. [Deployment](#deployment)
+6.  [Features](#features)
+7. [Technologies Used](#technologies-used)
+8. [Testing](#testing)
+9. [Deployment](#deployment)
      * [Requirements](#requirements)
      * [Local](#local)
      * [Heroku](#heroku)
-12. [Credits](#credits)
+10. [Credits](#credits)
      * [Content](#content)
      * [Media](#media)
      * [Acknowledgements](#acknowledgements)
@@ -114,11 +104,9 @@ Click the link below to run my project in the live environment:
   * Clean, modern type was used for all headings and text. 
 #### Imagery
   * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate                 choice
-<<<<<<< HEAD
   * The Company Name and also their black "Hawthorn Tree" logo also features throughout the site, fitting in with the black styling throughout the site.
-=======
   * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
->>>>>>> 614e291a5ebde2f6eaaee18c6b09f5973dcd9a09
+
 
 
 ### Wireframes
@@ -139,32 +127,31 @@ Click the link below to run my project in the live environment:
 
 ## Features
 
--   Responsive on all device sizes.
+### Current
 
--   Option for Customer to create personalised accounts to store order history and payment details.
-
--   Searchbar and Sorting options available to Users to easily find what they are looking for.
-
-
+* Responsive on all device sizes.
+* Option for Customer to create personalised accounts to store order history and payment details.
+* Searchbar and Sorting options available to Users to easily find what they are looking for.
 
 
 
-### Future Features 
+### Future
 
- #### Confirmation Email Improvement
-- Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
+#### Confirmation Email Improvement
+* Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
 
-
- #### Wine Club
-- The company intend on starting a Wine Club which will require a monthly subscription feature.
+#### Wine Club
+* The company intend on starting a Wine Club which will require a monthly subscription feature.
 I will use django-flexible-subscription to implement this feature.
+
 
 
 
 
 ## Technologies Used
 
-### Design
+
+### Site-Design
     Photoshop, Logomakr, GoogleFonts, FontAwesome
 
 ### Front-End
@@ -197,7 +184,7 @@ I will use django-flexible-subscription to implement this feature.
 - I used the [W3C HTML Validator tool](https://validator.w3.org/#validate_by_input) to validate my HTML code.
 - I used the [W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
 - I used the [Pep8 Online tool](http://pep8online.com/) to validate my Python syntax.
-- [view](https://github.com/jmurrii/MS3/blob/master/documentation/PEP8%20Validation.png)
+
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -314,9 +301,6 @@ I will use django-flexible-subscription to implement this feature.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
 
-### Known Bugs
-
--   .
 
 ## Deployment
 
@@ -334,9 +318,8 @@ To deploy my website to Heroku, I used the following steps:
 7. Created a Procfile
 8. Ran the `git push heroku master` command in the terminal window to push the app to Heroku.
 9. Ran the `heroku ps:scale web=1` command in the terminal window to run the app in Heroku.
-10. Entered the following Config Var in Heroku:
+10. Entered the relevant Config Var settings in Heroku.
 
-    ```MONGO_URI : <link to MongoDB>```
 
 
 The app was successfully deployed to Heroku at this stage.
@@ -376,11 +359,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+
 ```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
@@ -388,8 +367,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 ### Code
-
--   
+ 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 
@@ -401,13 +379,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   I took much inspiration and guidance from the Code Institute's Boutique Ado E-Commerce video series [Code Institute](https://codeinstitute.net/)
 
--  I also took inspiration from the following online Wine Stores 
+-   I also took inspiration from the following online Wine Stores 
     
-    [Rebel Wines](https://www.rebelwines.nl/us/)
-    [Grape&Grind](https://grapeandgrind.co.uk/)
-    [Vinello](https://www.vinello.eu/)
-    [Volatil](https://volatil.dk/)
-    [WineOnline.ie](https://wineonline.ie/)
+    [Rebel Wines](https://www.rebelwines.nl/us/)<br>
+    [Grape&Grind](https://grapeandgrind.co.uk/)<br>
+    [Vinello](https://www.vinello.eu/)<br>
+    [Volatil](https://volatil.dk/)<br>
+    [WineOnline.ie](https://wineonline.ie/)<br>
 
 
 ### Media

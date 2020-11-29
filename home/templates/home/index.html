@@ -1,88 +1,76 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="container header-container">
+   <div class="row">
+      <div class="col"></div>
+   </div>
+</div>
 {% endblock %}
-
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto pt-2">
-                <h1 class="display-4 logo-font text-black mt-3 " id="tagline">
-                    So I Called Up The Captain,<br>“Please bring me my wine”
-                </h1>
-                <div class="my-5 px-4">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </div>
-
+<div class="container h-100">
+   <div class="row h-100">
+      <div class="col-7 col-md-6 my-auto pt-2">
+         <h1 class="display-4 logo-font text-black mt-3 " id="tagline">
+            So I Called Up The Captain,<br>“Please bring me my wine”
+         </h1>
+         <div class="my-5 px-4">
+            <h4>
+               <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+            </h4>
+         </div>
+      </div>
+   </div>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="ageID" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" id="modal">
-    <a href="https://www.google.com/search?q=grape+juice" target="_blank">
-    <button type="button" class="close text-right pt-1 pr-1">
-          <span aria-hidden="true">&times;</span>
-        </button>
-    </a>
-     <div class="mt-3 pr-2">
-                <img src="{{ MEDIA_URL }}abstract-tree.svg" alt="tree logo" id="tree-logo">
-                
-                </div>
-      <div class="modal-header">
-        <h5 class="modal-title logo-font mx-auto" id=""><strong class="hawthorn">Hawthorn</strong> Wine Co.</h5>
+   <div class="modal-dialog" role="document">
+      <div class="modal-content" id="modal">
+         <a href="https://www.google.com/search?q=grape+juice" target="_blank">
+         <button type="button" class="close text-right pt-1 pr-1">
+         <span aria-hidden="true">&times;</span>
+         </button>
+         </a>
+         <div class="mt-3 pr-2">
+            <img src="{{ MEDIA_URL }}abstract-tree.svg" alt="tree logo" id="tree-logo">
+         </div>
+         <div class="modal-header">
+            <h5 class="modal-title logo-font mx-auto" id=""><strong class="hawthorn">Hawthorn</strong> Wine Co.</h5>
+         </div>
+         <div class="modal-body text-center">
+            <div class="row">
+               <div class="col">
+                  <p class="">Please verify your age before proceeding:</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">I certify I am of legal drinking age</button>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">
+                  <a href="https://www.google.com/search?q=grape+juice" target="_blank">
+                  <button type="button" href="" class="btn btn-primary mt-3 rounded-0">Exit</button>
+                  </a>
+               </div>
+            </div>
+         </div>
       </div>
-      <div class="modal-body text-center">
-        <div class="row">
-        <div class="col">
-        <p class="">Please verify your age before proceeding:</p>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col">
-        <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">I certify I am of legal drinking age</button>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col">
-        <a href="https://www.google.com/search?q=grape+juice" target="_blank">
-        <button type="button" href="" class="btn btn-primary mt-3 rounded-0">Exit</button>
-        </a>
-        </div>
-        </div>
-      </div>
-    
-      
-    </div>
-  </div>
+   </div>
 </div>
-
-
-
-
 {% endblock %}
-
 {% block postloadjs %}
-    {{ block.super }}
+{{ block.super }}
 <!-- Age Verification Modal -->
-
 <script type="text/javascript">
-//  Ensures that user only is shown the modal on landing on the homepage 
-    if (sessionStorage && !sessionStorage.getItem("agreementShown")) {
-//  Modal Show on loading index.html
-$(window).on("load", function () {
-$("#ageID").modal("show");
-sessionStorage.setItem("agreementShown", true);
-});
-}
+   //  Ensures that user only is shown the modal on landing on the homepage 
+       if (sessionStorage && !sessionStorage.getItem("agreementShown")) {
+   //  Modal Show on loading index.html
+   $(window).on("load", function () {
+   $("#ageID").modal("show");
+   sessionStorage.setItem("agreementShown", true);
+   });
+   }
 </script>
 {% endblock %}
