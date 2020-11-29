@@ -71,31 +71,42 @@ Click the link below to run my project in the live environment:
 
     -   #### Viewing and Navigation
 
-        1. As a Shopper, I want to be able to easily be able to navigate throughout the site to find wines and then select for purchase.
-        2. As a Shopper, I want to be able to view individual wine details so that I can identify the price, description, and all necessary details.
-        3. As a Shopper, I want to easily view the total of my purchases at any time so as to avoid spending too much.
+       1. As a Shopper, I want to be able to easily be able to navigate throughout the site to find wines and then select for purchase.
+       2. As a Shopper, I want to be able to view individual wine details so that I can identify the price, description, and all necessary details.
+       3. As a Shopper, I want to easily view the total of my purchases at any time so as to avoid spending too much.
 
     -   #### Registration and User Accounts
 
-        4. As a Site User, I want to easily register for a personal account and be able to view my profile.
-        5. As a Site User, I want to easily login or logout to access my personla information.
-        6. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
-        7. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
-        8. As a Site User, I want to receive an email confirmation agter registering and to verify that my account registration was sucessful.
-        8. As a Site User, I want to be have a personalised user profile to that I can view my personal order history and save payment information.
+       1. As a Site User, I want to easily register for a personal account and be able to view my profile.
+       2. As a Site User, I want to easily login or logout to access my personla information.
+       3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
+       4. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
+       5. As a Site User, I want to receive an email confirmation agter registering and to verify that my account registration was sucessful.
+       6. As a Site User, I want to be have a personalised user profile to that I can view my personal order history and save payment information.
 
      -   #### Sorting and Searching
-      9. As a Shopper, I want to be able to easily sort the list of available wines by type, price, country etc.
-      10. As a Shopper, I want to be able to search for a product by name or description and find a specific product I would like to purchase.
-      11. As a Shopper, I want to be able to easily see what I've searched for and the number of results so I can quickly see if the product is available.
+      1. As a Shopper, I want to be able to easily sort the list of available wines by type, price, country etc.
+      2. As a Shopper, I want to be able to search for a product by name or description and find a specific product I would like to purchase.
+      3. As a Shopper, I want to be able to easily see what I've searched for and the number of results so I can quickly see if the product is available.
 
 
      -   #### Purchasing and Checkout
-     12. As a Shopper, I want to easily select the quantity of a product when I select it.
+     1. As a Shopper, I want to easily select the quantity of a product when I select it.
+     2. As a Shopper, I want to view items to be purchased in my bag.
+     3. As a Shopper, I want to be able to adjust the quantity of individual items in my bag.
+     4. As a Shopper, I want to be able to easily enter my payment information.
+     5. As a Shopper, I want to feel my personal information is safe and secure.
+     6. As a Shopper, I want to be able to view an order confirmation after checkout.
+     7. As a Shopper, I want to receive an email confirmation after checking out.
+     
 
-
-
-
+-   #### Admin and Site Management Goals
+        
+    1. As a site owner I want to be able to add new items to my store.
+    2. As a site owner I want to be able to edit-update products.
+    3. As a site owner I want to be able to delete products. 
+    
+ 
 -   ### Design
     -   #### Colour Scheme
         -   The three main colours used throughout the site are black, white and Seashell Peach.
