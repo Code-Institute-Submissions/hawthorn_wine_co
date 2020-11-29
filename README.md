@@ -106,13 +106,13 @@ Click the link below to run my project in the live environment:
  
 ## Design
 
--   #### Colour Scheme
+   #### Colour Scheme
         * The three main colours used throughout the site are black, white and Seashell Peach.
         * The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type. 
--   #### Typography
+   #### Typography
         * I picked an artistic style font giving a hand-drawn feel for the Main-Logo.
         * Clean, modern type was used for all headings and text. 
--   #### Imagery
+  #### Imagery
         * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate                 choice
         * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
 
@@ -205,72 +205,86 @@ Click the link below to run my project in the live environment:
 
     -   #### Registration and User Accounts
 
-       1. As a Site User, I want to easily register for a personal account and be able to view my profile.
+    1. As a Site User, I want to easily register for a personal account and be able to view my profile.
        
        The site provides a registration option which is clearly visible on all pages in the site.
        This allows user to create a personal account and access transaction history.
         
-       2. As a Site User, I want to easily login or logout to access my personal information.
+    2. As a Site User, I want to easily login or logout to access my personal information.
        
        Login/Logout functionality is available from the header section on every page.
 
-       3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
+    3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
        
        The "Forgot Password?" link underneath the login option provides the opportunity for the user to reset their password on providing the appropriate                  email address.
         
         
-       4. As a Site User, I want to receive an email confirmation after registering and to verify that my account registration was sucessful.
+    4. As a Site User, I want to receive an email confirmation after registering and to verify that my account registration was sucessful.
         
-       *Users receive an email to confirm successful registration and also a link to confirm their account.
+        
+        Users receive an email to confirm successful registration and also a link to confirm their account.
        
-       5. As a Site User, I want to be have a personalised user profile to that I can view my personal order history and save payment information.
+    5. As a Site User, I want to be have a personalised user profile to that I can view my personal order history and save payment information.
         - Users have the ability to create their own account which stores their personal order history and saves information.
 
      -   #### Sorting and Searching
-      1. As a Shopper, I want to be able to easily sort the list of available wines by type, price, country etc.
-      - The site provides the ability to search by type, country, and by price(ascending or descending.)
+    1. As a Shopper, I want to be able to easily sort the list of available wines by type, price, country etc.
+        
+        The site provides the ability to search by type, country, and by price(ascending or descending.)
 
-      2. As a Shopper, I want to be able to search for a product by name or description and find a specific product I would like to purchase.
-      - The site's Searchbar allows the user to search by name or description enhancing the user experience.
+    2. As a Shopper, I want to be able to search for a product by name or description and find a specific product I would like to purchase.
+        
+        The site's Searchbar allows the user to search by name or description enhancing the user experience.
 
-      3. As a Shopper, I want to be able to easily see what I've searched for and the number of results so I can quickly see if the product is available.
-      - The number of items searched for and name of category is returned at the top of the page.
+    3. As a Shopper, I want to be able to easily see what I've searched for and the number of results so I can quickly see if the product is available.
+        
+        The number of items searched for and name of category is returned at the top of the page.
 
 
      -   #### Purchasing and Checkout
-     1. As a Shopper, I want to easily select the quantity of a product when I select it.
-     - The shopping bag and product pages make it easy to choose product quantity.
+    1. As a Shopper, I want to easily select the quantity of a product when I select it.
+        
+        The shopping bag and product pages make it easy to choose product quantity.
 
-     2. As a Shopper, I want to view items to be purchased in my bag.
-     -  The total cost of all items in shopping bag is easily viewable at the top of the page across the site.
+    2. As a Shopper, I want to view items to be purchased in my bag.
+        
+         The total cost of all items in shopping bag is easily viewable at the top of the page across the site.
 
-     3. As a Shopper, I want to be able to adjust the quantity of individual items in my bag.
-     - At the checkout page there is an option to increase or delete products making it easier for the customer to make changes to their order.
+    3. As a Shopper, I want to be able to adjust the quantity of individual items in my bag.
+            
+          At the checkout page there is an option to increase or delete products making it easier for the customer to make changes to their order.
 
-     4. As a Shopper, I want to be able to easily enter my payment information.
-     - The checkout page makes payment a very straightforward and easy process for the customer with all relevant information clear and with prompts and easy to      follow instructions.
-     There is also the option to store payment information making repeat transactions hassle-free.
+    4. As a Shopper, I want to be able to easily enter my payment information.
+        
+          The checkout page makes payment a very straightforward and easy process for the customer with all relevant information clear and with prompts and easy           to follow instructions.
+          There is also the option to save payment information making repeat transactions hassle-free.
 
-     5. As a Shopper, I want to feel my personal information is safe and secure.
-     - Payment is handled via Stripe which is a globally recognised and secure payment system ensuring the user can be confident with their transaction.
+    5. As a Shopper, I want to feel my personal information is safe and secure.
+        
+        Payment is handled via Stripe which is a globally recognised and secure payment system ensuring the user can be confident with their transaction.
 
-     6. As a Shopper, I want to be able to view an order confirmation after checkout.
-     - Users will see an order confirmation view after completing their order.
+    6. As a Shopper, I want to be able to view an order confirmation after checkout.
+        
+        Users will see an order confirmation view after completing their order.
 
-     7. As a Shopper, I want to receive an email confirmation after checking out.
-     - Customers receive an email comfirming their order after payment had been processed.
+    7. As a Shopper, I want to receive an email confirmation after checking out.
+        
+        Customers receive an email comfirming their order after payment had been processed.
      
 
--   #### Admin and Site Management Goals
+    -   #### Admin and Site Management Goals
         
     1. As a site owner I want to be able to add new items to my store.
-    - The Admin page allows new products to be added to product database.
+        
+        The Admin page allows new products to be added to product database.
    
     2. As a site owner I want to be able to edit-update products.
-    - The Admin page allows editing and updating of all relevant fields for all products.
+        
+        The Admin page allows editing and updating of all relevant fields for all products.
 
     3. As a site owner I want to be able to delete products. 
-    - The Admin page allows removal of products no longer available.
+        
+        The Admin page allows removal of products no longer available.
  
 
 ### Further Testing
