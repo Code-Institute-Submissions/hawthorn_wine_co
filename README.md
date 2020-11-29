@@ -20,13 +20,14 @@ Click the link below to run my project in the live environment:
      * [User Goals](#user-goals)
      * [Site Owner Goals](#business-goals)
 4. [User Stories](#user-stories)
-5. [Wireframes](#wireframes)
+5. [Design](#design)
+   [Wireframes](#wireframes)
 6. [Design Choices](#design-choices)
         * [Color Choice](#color-choice)
         * [Typography](#typography)
-      - [Title Font](#title-font)
-      - [Base Font](#base-font)
+     
     + [Image Choice](#image-choice)
+       [Wireframes](#wireframes)
       - [Service Levels](#service-levels)
     + [Design Elements](#design-elements)
 7. [Features](#features)
@@ -107,7 +108,8 @@ Click the link below to run my project in the live environment:
     3. As a site owner I want to be able to delete products. 
     
  
--   ### Design
+## Design 
+---
     -   #### Colour Scheme
         -   The three main colours used throughout the site are black, white and Seashell Peach.
         -   The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type. 
@@ -115,23 +117,23 @@ Click the link below to run my project in the live environment:
             I picked an artistic style font giving a hand-drawn feel for the Main-Logo.
         -   Clean, modern type for heading and text. 
     -   #### Imagery
-        -   The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I thought this was an appropriate choice
+        -   The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I thought this was an appropriate             choice
         -   The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
 
+
 *   ### Wireframes
-    -   I drew the Wireframes for this project as I find drawing them allows for more detailed notes as well as being a more efficient  use of time.
 
     -   Home Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/homepage-wireframe.jpg)
 
-    
     - Mobile-Wireframe
-    <img src="documentation/images/contact-wireframe.jpg" width="400" height="200" alt="">
+        + <img src="documentation/images/contact-wireframe.jpg" width="400" height="200" alt="">
 
     -   Mobile Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/mobile-wireframe.jpg)
 
     -   Products Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/products-wireframe.jpg)
 
-    -   Browse Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/contact-wireframe.jpg)
+    -   Contact Page Wireframe - 
+        +  <img src="documentation/images/contact-wireframe.jpg" width="400" height="200" alt="">
 
 ## Features
 
