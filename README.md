@@ -48,9 +48,9 @@ Click the link below to run my project in the live environment:
          * [Acknowledgements](#acknowledgements)
   
 
-### Project Purpose 
+## Project Purpose 
 
-  **Build a website for an Online Wine Store**
+-  ### Build a website for an Online Wine Store
 
 1. External user’s goal:
      * Find wines to purchase
@@ -104,14 +104,15 @@ Click the link below to run my project in the live environment:
     3. As a site owner I want to be able to delete products. 
     
  
-## Design 
- #### Colour Scheme
+## Design
+
+#### Colour Scheme
   * The three main colours used throughout the site are black, white and Seashell Peach.
   * The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type. 
-  #### Typography
+#### Typography
    * I picked an artistic style font giving a hand-drawn feel for the Main-Logo.
    * Clean, modern type was used for all headings and text. 
-  #### Imagery
+#### Imagery
    * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate             choice
    * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
 
@@ -140,13 +141,13 @@ Click the link below to run my project in the live environment:
 
 ### Future Features 
 
- # Login System
+ #### Login System
 - A User Login System would open up the possibility of users being able to login and edit their uploads securely.
 
- # Chart System
+ #### Chart System
 - When enough users have submitted books to the site I would like to implement a chart system recording the most popular books. This     would enhance the user experience and make the site more useful.
 
- # Upload Image with Book Submissions
+ #### Upload Image with Book Submissions
 - Providing the possibility to upload an image/link to the book cover would make the site more visually appealing.
 
 
@@ -205,17 +206,22 @@ Click the link below to run my project in the live environment:
     -   #### Registration and User Accounts
 
        1. As a Site User, I want to easily register for a personal account and be able to view my profile.
-        -  The site provides a registration option which is clearly visible on all pages in the site.
-           This allows user to create a personal account and access transaction history.
+       
+       The site provides a registration option which is clearly visible on all pages in the site.
+       This allows user to create a personal account and access transaction history.
         
        2. As a Site User, I want to easily login or logout to access my personal information.
-        - Login/Logout functionality is available from the header section on every page.
+       
+       Login/Logout functionality is available from the header section on every page.
 
        3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
-        -  The "Forgot Password?" link underneath the login option provides the opportunity for the user to reset their password on providing the appropriate                  email address.
+       
+       The "Forgot Password?" link underneath the login option provides the opportunity for the user to reset their password on providing the appropriate                  email address.
+        
         
        4. As a Site User, I want to receive an email confirmation after registering and to verify that my account registration was sucessful.
-        - Users receive an email to confirm successful registration and also a link to confirm their account.
+        
+       *Users receive an email to confirm successful registration and also a link to confirm their account.
        
        5. As a Site User, I want to be have a personalised user profile to that I can view my personal order history and save payment information.
         - Users have the ability to create their own account which stores their personal order history and saves information.
