@@ -25,24 +25,19 @@ Click the link below to run my project in the live environment:
       * [Typography](#typography)
       * [Image Choice](#image-choice)
       * [Wireframes](#wireframes)
-     
 7. [Features](#features)
-       * [Implemented Features](#implemented
+        * [Current](#Current)
+        * [Future](#future)
 8. [Technologies Used](#technologies-used)
-    * [Programming Languages](#programming-languages)
-    * [Framework & Extensions](#framework--extensions)
-    * [Fonts](#fonts)
-    * [Tools](#tools)
-    * [APIs](#apis)
-9. [Defensive Programming](#defensive-programming)
-         * [Additional Security Checks](#additional-security-checks)
-         * [Custom Validation](#custom-validation)
-10. [Testing](#testing)
-11. [Deployment](#deployment)
+         * [Site-Design](#site-design)
+         * [Frontend](#frontend)
+         * [Backend](#backend)
+9. [Testing](#testing)
+10. [Deployment](#deployment)
      * [Requirements](#requirements)
      * [Local](#local)
      * [Heroku](#heroku)
-12. [Credits](#credits)
+11. [Credits](#credits)
      * [Content](#content)
      * [Media](#media)
      * [Acknowledgements](#acknowledgements)
@@ -114,9 +109,7 @@ Click the link below to run my project in the live environment:
   * Clean, modern type was used for all headings and text. 
 #### Imagery
   * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate                 choice
-<<<<<<< HEAD
   * The Company Name and also their black "Hawthorn Tree" logo also features throughout the site, fitting in with the black styling throughout the site.
-=======
   * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
 
 
@@ -139,6 +132,8 @@ Click the link below to run my project in the live environment:
 
 ## Features
 
+### Current
+
 -   Responsive on all device sizes.
 
 -   Option for Customer to create personalised accounts to store order history and payment details.
@@ -149,7 +144,7 @@ Click the link below to run my project in the live environment:
 
 
 
-### Future Features 
+### Future  
 
  #### Confirmation Email Improvement
 - Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
@@ -158,6 +153,7 @@ Click the link below to run my project in the live environment:
  #### Wine Club
 - The company intend on starting a Wine Club which will require a monthly subscription feature.
 I will use django-flexible-subscription to implement this feature.
+
 
 
 
@@ -399,7 +395,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   I took much inspiration and guidance from the Code Institute's Boutique Ado E-Commerce video series [Code Institute](https://codeinstitute.net/)
 
--  I also took inspiration from the following online Wine Stores 
+-   I also took inspiration from the following online Wine Stores 
     
     [Rebel Wines](https://www.rebelwines.nl/us/)
     [Grape&Grind](https://grapeandgrind.co.uk/)
