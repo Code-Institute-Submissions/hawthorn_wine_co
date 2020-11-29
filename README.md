@@ -159,11 +159,12 @@ I will use django-flexible-subscription to implement this feature.
 
 
 ## Technologies Used
+---
 
-### Design
+ ### Site-Design
     Photoshop, Logomakr, GoogleFonts, FontAwesome
 
-### Front-End
+ ### Front-End
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5) Used for storing all my pages.
 - [CSS](https://no.wikipedia.org/wiki/Cascading_Style_Sheets) Used for the styling of my webpage.
