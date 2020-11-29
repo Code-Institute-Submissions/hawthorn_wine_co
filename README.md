@@ -148,8 +148,6 @@ Click the link below to run my project in the live environment:
  #### Confirmation Email Improvement
 - Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
 
- #### Automatic Fading Toasts
-- Currently the user has to manually close the pop-up Success/Error toasts.  There is an option with Bootstrap to automatically close them but it happens too quickly.
 
  #### Wine Club
 - The company intend on starting a Wine Club which will require a monthly subscription feature.
