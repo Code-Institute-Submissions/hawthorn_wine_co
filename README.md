@@ -132,24 +132,21 @@ Click the link below to run my project in the live environment:
 
 ## Features
 
-   ### Current
+### Current
 
--   Responsive on all device sizes.
-
--   Option for Customer to create personalised accounts to store order history and payment details.
-
--   Searchbar and Sorting options available to Users to easily find what they are looking for.
+* Responsive on all device sizes.
+* Option for Customer to create personalised accounts to store order history and payment details.
+* Searchbar and Sorting options available to Users to easily find what they are looking for.
 
 
 
-  ### Future
+### Future
 
- #### Confirmation Email Improvement
-- Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
+#### Confirmation Email Improvement
+* Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
 
-
- #### Wine Club
-- The company intend on starting a Wine Club which will require a monthly subscription feature.
+#### Wine Club
+* The company intend on starting a Wine Club which will require a monthly subscription feature.
 I will use django-flexible-subscription to implement this feature.
 
 
@@ -192,8 +189,6 @@ I will use django-flexible-subscription to implement this feature.
 - I used the [W3C HTML Validator tool](https://validator.w3.org/#validate_by_input) to validate my HTML code.
 - I used the [W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
 - I used the [Pep8 Online tool](http://pep8online.com/) to validate my Python syntax.
-- [view](https://github.com/jmurrii/MS3/blob/master/documentation/PEP8%20Validation.png)
-
 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -369,11 +364,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+
 ```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
@@ -381,8 +372,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 ### Code
-
--   
+ 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 
@@ -396,11 +386,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   I also took inspiration from the following online Wine Stores 
     
-    [Rebel Wines](https://www.rebelwines.nl/us/)
-    [Grape&Grind](https://grapeandgrind.co.uk/)
-    [Vinello](https://www.vinello.eu/)
-    [Volatil](https://volatil.dk/)
-    [WineOnline.ie](https://wineonline.ie/)
+    [Rebel Wines](https://www.rebelwines.nl/us/)<br>
+    [Grape&Grind](https://grapeandgrind.co.uk/)<br>
+    [Vinello](https://www.vinello.eu/)<br>
+    [Volatil](https://volatil.dk/)<br>
+    [WineOnline.ie](https://wineonline.ie/)<br>
 
 
 ### Media
