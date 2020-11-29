@@ -74,11 +74,15 @@
 {% block postloadjs %}
     {{ block.super }}
 <!-- Age Verification Modal -->
-    <!-- <script type="text/javascript">
-		$(window).on('load',function(){
-        $('#ageID').modal('show');
-        });
-	</script> -->
-    
-    
+
+<script type="text/javascript">
+//  Ensures that user only is shown the modal on landing on the homepage 
+    if (sessionStorage && !sessionStorage.getItem("agreementShown")) {
+//  Modal Show on loading index.html
+$(window).on("load", function () {
+$("#ageID").modal("show");
+sessionStorage.setItem("agreementShown", true);
+});
+}
+</script>
 {% endblock %}
