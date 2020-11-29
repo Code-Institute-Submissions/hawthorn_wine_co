@@ -97,7 +97,7 @@ Click the link below to run my project in the live environment:
      7. As a Shopper, I want to receive an email confirmation after checking out.
      
 
--   #### Admin and Site Management Goals
+    -   #### Admin and Site Management Goals
         
     1. As a site owner I want to be able to add new items to my store.
     2. As a site owner I want to be able to edit-update products.
