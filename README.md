@@ -132,7 +132,7 @@ Click the link below to run my project in the live environment:
 
 ## Features
 
-### Current
+-   ### Current
 
 -   Responsive on all device sizes.
 
@@ -144,7 +144,7 @@ Click the link below to run my project in the live environment:
 
 
 
-### Future  
+-   ### Future
 
  #### Confirmation Email Improvement
 - Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
