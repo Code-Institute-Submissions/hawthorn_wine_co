@@ -298,6 +298,7 @@ I will use django-flexible-subscription to implement this feature.
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   I used the site 'Am I Responsive' to continually test the responsiveness of my site.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
 
