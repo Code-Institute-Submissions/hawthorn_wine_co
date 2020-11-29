@@ -114,7 +114,7 @@ Click the link below to run my project in the live environment:
   * Clean, modern type was used for all headings and text. 
 #### Imagery
   * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate                 choice
-  * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
+  * The Company Name and also their black "Hawthorn Tree" logo also features throughout the site, fitting in with the black styling throughout the site.
 
 
 ### Wireframes
@@ -137,9 +137,9 @@ Click the link below to run my project in the live environment:
 
 -   Responsive on all device sizes.
 
--   Submit, Edit and Delete operations to manage book recommendations.
+-   Option for Customer to create personalised accounts to store order history and payment details.
 
--   About page with link to article which inspired the project plus clear instructions on how to proceed.
+-   Searchbar and Sorting options available to Users to easily find what they are looking for.
 
 
 
