@@ -39,13 +39,13 @@ Click the link below to run my project in the live environment:
          * [Custom Validation](#custom-validation)
 10. [Testing](#testing)
 11. [Deployment](#deployment)
-        * [Requirements](#requirements)
-        * [Local](#local)
-        * [Heroku](#heroku)
+     * [Requirements](#requirements)
+     * [Local](#local)
+     * [Heroku](#heroku)
 12. [Credits](#credits)
-         * [Content](#content)
-         * [Media](#media)
-         * [Acknowledgements](#acknowledgements)
+     * [Content](#content)
+     * [Media](#media)
+     * [Acknowledgements](#acknowledgements)
   
 
 ## Project Purpose 
@@ -201,15 +201,16 @@ Click the link below to run my project in the live environment:
     -   #### Viewing and Navigation
 
        1. As a Shopper, I want to be able to easily be able to navigate throughout the site to find wines and then select for purchase.
-        - The site has a clearly visible navebar where users can search by Wine type or by Country.
-        There is also a Search bar above the Navbar where User's can search by Name, Category, Country, Descroption etc.
+          - The site has a clearly visible navebar where users can search by Wine type or by Country.
+            There is also a Search bar above the Navbar where User's can search by Name, Category, Country, Descroption etc.
 
 
        2. As a Shopper, I want to be able to view individual wine details so that I can identify the price, description, and all necessary details.
-        - Each Wine has it's own Product Details page where the user can find all necessary information on the wine.
+          - Each Wine has it's own Product Details page where the user can find all necessary information on the wine.
 
+       
        3. As a Shopper, I want to easily view the total of my purchases at any time so as to avoid spending too much.
-        - The site provides a cart icon in the top right corner which updates as the user adds items.  This makes it easy at all times to view the proposed cost           of the shopping cart.
+          - The site provides a cart icon in the top right corner which updates as the user adds items.  This makes it easy at all times to view the proposed                 cost of the shopping cart.
 
     -   #### Registration and User Accounts
 
@@ -218,21 +219,23 @@ Click the link below to run my project in the live environment:
        - The site provides a registration option which is clearly visible on all pages in the site.
          This allows user to create a personal account and access transaction history.
         
+    
     2. As a Site User, I want to easily login or logout to access my personal information.
        
        - Login/Logout functionality is available from the header section on every page.
 
-    3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
+   3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
        
        - The "Forgot Password?" link underneath the login option provides the opportunity for the user to reset their password on providing the appropriate                  email address.   
-        
-    4. As a Site User, I want to receive an email confirmation after registering and to verify that my account registration was sucessful.
-        - Users receive an email to confirm successful registration and also a link to confirm their account.
+    
+    
+  4.  As a Site User, I want to receive an email confirmation after registering and to verify that my account registration was sucessful.
+     - Users receive an email to confirm successful registration and also a link to confirm their account.
        
     5. As a Site User, I want to be have a personalised user profile to that I can view my personal order history and save payment information.
         - Users have the ability to create their own account which stores their personal order history and saves information.
 
-     -   #### Sorting and Searching
+   -   #### Sorting and Searching
     1. As a Shopper, I want to be able to easily sort the list of available wines by type, price, country etc.
         
         The site provides the ability to search by type, country, and by price(ascending or descending.)
