@@ -105,7 +105,7 @@ Click the link below to run my project in the live environment:
     
  
 ## Design 
----
+
  #### Colour Scheme
   * The three main colours used throughout the site are black, white and Seashell Peach.
   * The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type. 
@@ -120,16 +120,16 @@ Click the link below to run my project in the live environment:
 ### Wireframes
 
    - Home Page Wireframe 
-   +  <img src="documentation/images/homepage-wireframe.jpg" width="400" height="200" alt="wireframe">
-
-   - Mobile-Wireframe
-   +  <img src="documentation/images/mobile-wireframe.jpg" width="400" height="200" alt="wireframe">
+    <img src="documentation/images/homepage-wireframe.jpg" width="400" height="200" alt="wireframe">
 
    - Products Page Wireframe
-   +  <img src="documentation/images/products-wireframe.jpg" width="400" height="200" alt="wireframe">
+   <img src="documentation/images/products-wireframe.jpg" width="400" height="200" alt="wireframe">
 
    - Contact Page Wireframe
-   +  <img src="documentation/images/contact-wireframe.jpg" width="400" height="200" alt="wireframe">
+   <img src="documentation/images/contact-wireframe.jpg" width="400" height="200" alt="wireframe">
+   
+   - Mobile-Wireframe
+   <img src="documentation/images/mobile-wireframe.jpg" width="200" height="400" alt="wireframe">
 
 ## Features
 
