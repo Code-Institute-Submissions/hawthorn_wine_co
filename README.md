@@ -132,7 +132,7 @@ Click the link below to run my project in the live environment:
 
 ## Features
 
--   ### Current
+   ### Current
 
 -   Responsive on all device sizes.
 
@@ -142,9 +142,7 @@ Click the link below to run my project in the live environment:
 
 
 
-
-
--   ### Future
+  ### Future
 
  #### Confirmation Email Improvement
 - Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
@@ -159,12 +157,12 @@ I will use django-flexible-subscription to implement this feature.
 
 
 ## Technologies Used
----
 
- ### Site-Design
+
+### Site-Design
     Photoshop, Logomakr, GoogleFonts, FontAwesome
 
- ### Front-End
+### Front-End
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5) Used for storing all my pages.
 - [CSS](https://no.wikipedia.org/wiki/Cascading_Style_Sheets) Used for the styling of my webpage.
