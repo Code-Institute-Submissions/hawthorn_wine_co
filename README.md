@@ -106,15 +106,15 @@ Click the link below to run my project in the live environment:
  
 ## Design
 
-   #### Colour Scheme
-        * The three main colours used throughout the site are black, white and Seashell Peach.
-        * The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type. 
-   #### Typography
-        * I picked an artistic style font giving a hand-drawn feel for the Main-Logo.
-        * Clean, modern type was used for all headings and text. 
-  #### Imagery
-        * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate                 choice
-        * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
+#### Colour Scheme
+  * The three main colours used throughout the site are black, white and Seashell Peach.
+  * The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type.
+#### Typography
+  * I picked an artistic style font giving a hand-drawn feel for the Main-Logo.
+  * Clean, modern type was used for all headings and text. 
+#### Imagery
+  * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate                 choice
+  * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
 
 
 ### Wireframes
@@ -130,6 +130,8 @@ Click the link below to run my project in the live environment:
    
    - Mobile-Wireframe
    <img src="documentation/images/mobile-wireframe.jpg" width="400" height="300" alt="wireframe">
+   
+   
 
 ## Features
 
@@ -138,6 +140,8 @@ Click the link below to run my project in the live environment:
 -   Submit, Edit and Delete operations to manage book recommendations.
 
 -   About page with link to article which inspired the project plus clear instructions on how to proceed.
+
+
 
 ### Future Features 
 
@@ -149,6 +153,8 @@ Click the link below to run my project in the live environment:
 
  #### Upload Image with Book Submissions
 - Providing the possibility to upload an image/link to the book cover would make the site more visually appealing.
+
+
 
 
 ## Technologies Used
@@ -174,6 +180,8 @@ Click the link below to run my project in the live environment:
 - [PostgreSQL](https://www.postgresql.org/)Used for deployment in Heroku.
 - [Gunicorn](https://docs.gunicorn.org/en/stable/) Used as the Http server.
 - [Heroku](https://en.wikipedia.org/wiki/Heroku) Used for the deployment of my project.
+
+
 
 
 ## Testing
@@ -207,22 +215,19 @@ Click the link below to run my project in the live environment:
 
     1. As a Site User, I want to easily register for a personal account and be able to view my profile.
        
-       The site provides a registration option which is clearly visible on all pages in the site.
-       This allows user to create a personal account and access transaction history.
+       - The site provides a registration option which is clearly visible on all pages in the site.
+         This allows user to create a personal account and access transaction history.
         
     2. As a Site User, I want to easily login or logout to access my personal information.
        
-       Login/Logout functionality is available from the header section on every page.
+       - Login/Logout functionality is available from the header section on every page.
 
     3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
        
-       The "Forgot Password?" link underneath the login option provides the opportunity for the user to reset their password on providing the appropriate                  email address.
-        
+       - The "Forgot Password?" link underneath the login option provides the opportunity for the user to reset their password on providing the appropriate                  email address.   
         
     4. As a Site User, I want to receive an email confirmation after registering and to verify that my account registration was sucessful.
-        
-        
-        Users receive an email to confirm successful registration and also a link to confirm their account.
+        - Users receive an email to confirm successful registration and also a link to confirm their account.
        
     5. As a Site User, I want to be have a personalised user profile to that I can view my personal order history and save payment information.
         - Users have the ability to create their own account which stores their personal order history and saves information.
