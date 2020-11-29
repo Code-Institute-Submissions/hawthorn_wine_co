@@ -106,30 +106,30 @@ Click the link below to run my project in the live environment:
  
 ## Design 
 ---
-      #### Colour Scheme
-        -   The three main colours used throughout the site are black, white and Seashell Peach.
-        -   The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type. 
-      #### Typography
-            I picked an artistic style font giving a hand-drawn feel for the Main-Logo.
-        -   Clean, modern type for heading and text. 
-      #### Imagery
-        -   The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I thought this was an appropriate             choice
-        -   The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
+ #### Colour Scheme
+  * The three main colours used throughout the site are black, white and Seashell Peach.
+  * The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type. 
+  #### Typography
+   * I picked an artistic style font giving a hand-drawn feel for the Main-Logo.
+   * Clean, modern type was used for all headings and text. 
+  #### Imagery
+   * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate             choice
+   * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
 
 
 ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/homepage-wireframe.jpg)
+   - Home Page Wireframe 
+   +  <img src="documentation/images/homepage-wireframe.jpg" width="400" height="200" alt="wireframe">
 
-    - Mobile-Wireframe
-        + <img src="documentation/images/contact-wireframe.jpg" width="400" height="200" alt="">
+   - Mobile-Wireframe
+   +  <img src="documentation/images/mobile-wireframe.jpg" width="400" height="200" alt="wireframe">
 
-    -   Mobile Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/mobile-wireframe.jpg)
+   - Products Page Wireframe
+   +  <img src="documentation/images/products-wireframe.jpg" width="400" height="200" alt="wireframe">
 
-    -   Products Page Wireframe - [View](https://github.com/jmurrii/hawthorn_wine_co/tree/master/documentation/images/products-wireframe.jpg)
-
-    -   Contact Page Wireframe - 
-        +  <img src="documentation/images/contact-wireframe.jpg" width="400" height="200" alt="">
+   - Contact Page Wireframe
+   +  <img src="documentation/images/contact-wireframe.jpg" width="400" height="200" alt="wireframe">
 
 ## Features
 
