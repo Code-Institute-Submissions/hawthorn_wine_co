@@ -145,14 +145,15 @@ Click the link below to run my project in the live environment:
 
 ### Future Features 
 
- #### Login System
-- A User Login System would open up the possibility of users being able to login and edit their uploads securely.
+ #### Confirmation Email Improvement
+- Currently the confirmation email requires the user to copy the link into their browser.  A clickable link would ensure a better user experience. 
 
- #### Chart System
-- When enough users have submitted books to the site I would like to implement a chart system recording the most popular books. This     would enhance the user experience and make the site more useful.
+ #### Automatic Fading Toasts
+- Currently the user has to manually close the pop-up Success/Error toasts.  There is an option with Bootstrap to automatically close them but it happens too quickly.
 
- #### Upload Image with Book Submissions
-- Providing the possibility to upload an image/link to the book cover would make the site more visually appealing.
+ #### Wine Club
+- The company intend on starting a Wine Club which will require a monthly subscription feature.
+I will use django-flexible-subscription to implement this feature.
 
 
 
@@ -202,7 +203,7 @@ Click the link below to run my project in the live environment:
 
        1. As a Shopper, I want to be able to easily be able to navigate throughout the site to find wines and then select for purchase.
           - The site has a clearly visible navebar where users can search by Wine type or by Country.
-            There is also a Search bar above the Navbar where User's can search by Name, Category, Country, Descroption etc.
+            There is also a Search bar above the Navbar where User's can search by Name, Category, Country, Description etc.
 
 
        2. As a Shopper, I want to be able to view individual wine details so that I can identify the price, description, and all necessary details.
@@ -224,75 +225,82 @@ Click the link below to run my project in the live environment:
        
        - Login/Logout functionality is available from the header section on every page.
 
-   3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
+    3. As a Site User, I want to be able to recover my password if forgotten to regain access to my account.
        
-       - The "Forgot Password?" link underneath the login option provides the opportunity for the user to reset their password on providing the appropriate                  email address.   
+       - The "Forgot Password?" link underneath the login option provides the opportunity for the user to reset their password on providing the appropriate                email address.   
     
     
-  4.  As a Site User, I want to receive an email confirmation after registering and to verify that my account registration was sucessful.
-     - Users receive an email to confirm successful registration and also a link to confirm their account.
+    4.  As a Site User, I want to receive an email confirmation after registering and to verify that my account registration was sucessful.
+     
+        - Users receive an email to confirm successful registration and also a link to confirm their account.
        
     5. As a Site User, I want to be have a personalised user profile to that I can view my personal order history and save payment information.
-        - Users have the ability to create their own account which stores their personal order history and saves information.
+       
+       - Users have the ability to create their own account which stores their personal order history and saves information.
 
-   -   #### Sorting and Searching
+
+
+    -   #### Sorting and Searching
+   
     1. As a Shopper, I want to be able to easily sort the list of available wines by type, price, country etc.
         
-        The site provides the ability to search by type, country, and by price(ascending or descending.)
+       - The site provides the ability to search by type, country, and by price(ascending or descending.)
 
     2. As a Shopper, I want to be able to search for a product by name or description and find a specific product I would like to purchase.
         
-        The site's Searchbar allows the user to search by name or description enhancing the user experience.
+       - The site's Searchbar allows the user to search by name or description enhancing the user experience.
 
     3. As a Shopper, I want to be able to easily see what I've searched for and the number of results so I can quickly see if the product is available.
         
-        The number of items searched for and name of category is returned at the top of the page.
+       - The number of items searched for and name of category is returned at the top of the page.
 
 
-     -   #### Purchasing and Checkout
-    1. As a Shopper, I want to easily select the quantity of a product when I select it.
+
+    -  #### Purchasing and Checkout
+    
+    1.  As a Shopper, I want to easily select the quantity of a product when I select it.
         
-        The shopping bag and product pages make it easy to choose product quantity.
+          -  The shopping bag and product pages make it easy to choose product quantity.
 
-    2. As a Shopper, I want to view items to be purchased in my bag.
+    2.  As a Shopper, I want to view items to be purchased in my bag.
         
-         The total cost of all items in shopping bag is easily viewable at the top of the page across the site.
+          -  The total cost of all items in shopping bag is easily viewable at the top of the page across the site.
 
-    3. As a Shopper, I want to be able to adjust the quantity of individual items in my bag.
+    3.  As a Shopper, I want to be able to adjust the quantity of individual items in my bag.
             
-          At the checkout page there is an option to increase or delete products making it easier for the customer to make changes to their order.
+          -  At the checkout page there is an option to increase or delete products making it easier for the customer to make changes to their order.
 
-    4. As a Shopper, I want to be able to easily enter my payment information.
+    4.  As a Shopper, I want to be able to easily enter my payment information.
         
-          The checkout page makes payment a very straightforward and easy process for the customer with all relevant information clear and with prompts and easy           to follow instructions.
-          There is also the option to save payment information making repeat transactions hassle-free.
+          -  The checkout page makes payment a very straightforward and easy process for the customer with all relevant information clear and with prompts and                 easy to follow instructions.
+          -  There is also the option to save payment information making repeat transactions hassle-free.
 
-    5. As a Shopper, I want to feel my personal information is safe and secure.
+    5.  As a Shopper, I want to feel my personal information is safe and secure.
         
-        Payment is handled via Stripe which is a globally recognised and secure payment system ensuring the user can be confident with their transaction.
+          -  Payment is handled via Stripe which is a globally recognised and secure payment system ensuring the user can be confident with their transaction.
 
-    6. As a Shopper, I want to be able to view an order confirmation after checkout.
+    6.  As a Shopper, I want to be able to view an order confirmation after checkout.
         
-        Users will see an order confirmation view after completing their order.
+          - Users will see an order confirmation view after completing their order.
 
-    7. As a Shopper, I want to receive an email confirmation after checking out.
+    7.  As a Shopper, I want to receive an email confirmation after checking out.
         
-        Customers receive an email comfirming their order after payment had been processed.
+          - Customers receive an email comfirming their order after payment had been processed.
      
 
     -   #### Admin and Site Management Goals
         
-    1. As a site owner I want to be able to add new items to my store.
+    1.  As a site owner I want to be able to add new items to my store.
         
-        The Admin page allows new products to be added to product database.
+          - The Admin page allows new products to be added to product database.
    
-    2. As a site owner I want to be able to edit-update products.
+    2.  As a site owner I want to be able to edit-update products.
         
-        The Admin page allows editing and updating of all relevant fields for all products.
+          - The Admin page allows editing and updating of all relevant fields for all products.
 
-    3. As a site owner I want to be able to delete products. 
+    3.  As a site owner I want to be able to delete products. 
         
-        The Admin page allows removal of products no longer available.
+          - The Admin page allows removal of products no longer available.
  
 
 ### Further Testing
