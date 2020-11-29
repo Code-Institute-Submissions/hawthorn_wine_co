@@ -114,7 +114,11 @@ Click the link below to run my project in the live environment:
   * Clean, modern type was used for all headings and text. 
 #### Imagery
   * The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I felt this was an appropriate                 choice
+<<<<<<< HEAD
   * The Company Name and also their black "Hawthorn Tree" logo also features throughout the site, fitting in with the black styling throughout the site.
+=======
+  * The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
+
 
 
 ### Wireframes
@@ -140,6 +144,8 @@ Click the link below to run my project in the live environment:
 -   Option for Customer to create personalised accounts to store order history and payment details.
 
 -   Searchbar and Sorting options available to Users to easily find what they are looking for.
+
+
 
 
 
@@ -192,6 +198,8 @@ I will use django-flexible-subscription to implement this feature.
 - I used the [W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
 - I used the [Pep8 Online tool](http://pep8online.com/) to validate my Python syntax.
 - [view](https://github.com/jmurrii/MS3/blob/master/documentation/PEP8%20Validation.png)
+
+
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -308,9 +316,6 @@ I will use django-flexible-subscription to implement this feature.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
 
-### Known Bugs
-
--   .
 
 ## Deployment
 
@@ -328,9 +333,8 @@ To deploy my website to Heroku, I used the following steps:
 7. Created a Procfile
 8. Ran the `git push heroku master` command in the terminal window to push the app to Heroku.
 9. Ran the `heroku ps:scale web=1` command in the terminal window to run the app in Heroku.
-10. Entered the following Config Var in Heroku:
+10. Entered the relevant Config Var settings in Heroku.
 
-    ```MONGO_URI : <link to MongoDB>```
 
 
 The app was successfully deployed to Heroku at this stage.
