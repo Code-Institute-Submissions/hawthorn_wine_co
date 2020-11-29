@@ -53,16 +53,16 @@ Click the link below to run my project in the live environment:
 
 ### Project Purpose 
 
-  **Build a website for a Wine Store**
+  **Build a website for an Online Wine Store**
 
 1. External user’s goal:
-   -Find wines to purchase
-   -Register for an account
+     + Find wines to purchase
+     * Register for an account
 
 2. Site owner's goal:
-   -Sell Wines
-   -Build brand aesthetic
-   -Create a database of customers
+   - Sell Wines
+   - Build brand aesthetic
+   - Create a database of customers
 
 
 ## User Experience (UX)
