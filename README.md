@@ -21,15 +21,11 @@ Click the link below to run my project in the live environment:
      * [Site Owner Goals](#business-goals)
 4. [User Stories](#user-stories)
 5. [Design](#design)
-   [Wireframes](#wireframes)
-6. [Design Choices](#design-choices)
-        * [Color Choice](#color-choice)
-        * [Typography](#typography)
+      * [Color Choice](#color-choice)
+      * [Typography](#typography)
+      * [Image Choice](#image-choice)
+      * [Wireframes](#wireframes)
      
-    + [Image Choice](#image-choice)
-       [Wireframes](#wireframes)
-      - [Service Levels](#service-levels)
-    + [Design Elements](#design-elements)
 7. [Features](#features)
        * [Implemented Features](#implemented
 8. [Technologies Used](#technologies-used)
@@ -57,13 +53,13 @@ Click the link below to run my project in the live environment:
   **Build a website for an Online Wine Store**
 
 1. External user’s goal:
-     + Find wines to purchase
+     * Find wines to purchase
      * Register for an account
 
 2. Site owner's goal:
-   - Sell Wines
-   - Build brand aesthetic
-   - Create a database of customers
+   * Sell Wines
+   * Build brand aesthetic
+   * Create a database of customers
 
 
 ## User Experience (UX)
