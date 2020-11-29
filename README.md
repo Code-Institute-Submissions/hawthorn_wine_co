@@ -106,13 +106,13 @@ Click the link below to run my project in the live environment:
  
 ## Design 
 ---
-     * #### Colour Scheme
+      #### Colour Scheme
         -   The three main colours used throughout the site are black, white and Seashell Peach.
         -   The site's colour scheme and styling was based on the Owner's request that the site have an independent feel to reflect the business type. 
-     *   #### Typography
+      #### Typography
             I picked an artistic style font giving a hand-drawn feel for the Main-Logo.
         -   Clean, modern type for heading and text. 
-     *  #### Imagery
+      #### Imagery
         -   The main image for the site is a large,background hero image with an "OPEN" sign.  As this is a brand new business I thought this was an appropriate             choice
         -   The Company Name and also their "Hawthorn Tree" SVG logo also features thorughout the site. 
 
