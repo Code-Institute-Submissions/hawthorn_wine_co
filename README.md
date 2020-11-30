@@ -294,6 +294,15 @@ I will use django-flexible-subscription to implement this feature.
           - The Admin page allows removal of products no longer available.
  
 
+### Stripe Testing
+
+- To simulate an issue with the payment format I commented out the 'form.submit()' code from my stripe_elements.js file.
+  This simulated a User closing the page before the form was submitted or some other issue with form submission.
+  I then checked Stripe and the webhook response signalled the order was created in
+  the webhook despite the break in the payment flow. 
+  The order was also present in the Orders section of the Admin page showing that the system is safe against such issues. 
+
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -378,7 +387,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Format of README.md followed *[this](https://github.com/Code-Institute-Solutions/SampleREADME#code-institute-website)*    example.
 
--   I took much inspiration and guidance from the Code Institute's Boutique Ado E-Commerce video series [Code Institute](https://codeinstitute.net/)
+-   Code was primarily inspired by the Boutique Ado E-Commerce video series [Code Institute](https://codeinstitute.net/)
 
 -   I also took inspiration from the following online Wine Stores 
     
@@ -400,3 +409,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My Mentor Anto Rodriguez for his invaluable help throughout the project.
 
 -   Tutor support at Code Institute for their support.
+
+### Disclaimer
+-   At this point the content of this website, including the images used, are for educational purposes only.
